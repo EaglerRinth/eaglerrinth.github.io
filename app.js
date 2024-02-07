@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('mods.json')
+    fetch('https://raw.githubusercontent.com/EaglerRinth/eaglerrinth.github.io/main/mods.json')
         .then(response => response.json())
         .then(data => {
             const modContainer = document.getElementById('modContainer');
