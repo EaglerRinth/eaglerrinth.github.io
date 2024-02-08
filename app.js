@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             <p class="card-text" style="margin-top: 3px;padding-left: 113px;margin-bottom: -35px;padding-bottom: 0px;padding-top: 6px;">${mod.description}</p>
                             <img style="padding-top: 0px;padding-bottom: 0px;margin-bottom: -48px;margin-top: -89px;" src="${mod.icon}" width="100">
                             <div class="mt-3">
-                                <a href="${mod['repo-link']}" class="btn btn-primary" target="_blank">View Files</a>
+                                <a href="${mod['repo-link']}" class="btn btn-primary" target="_blank">View Source</a>
                                 <a href="${mod['download-link']}" class="btn btn-success" download target="_blank">Download</a>
                             </div>
                         </div>
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <p class="card-text" style="margin-top: 3px;padding-left: 113px;margin-bottom: -35px;padding-bottom: 0px;padding-top: 6px;">${mod.description}</p>
                                 <img style="padding-top: 0px;padding-bottom: 0px;margin-bottom: -48px;margin-top: -89px;" src="${mod.icon}" width="100">
                                 <div class="mt-3">
-                                    <a href="${mod['repo-link']}" class="btn btn-primary" target="_blank">View Files</a>
+                                    <a href="${mod['repo-link']}" class="btn btn-primary" target="_blank">View Source</a>
                                     <a href="${mod['download-link']}" class="btn btn-success" target="_blank">Download</a>
                                 </div>
                             </div>
