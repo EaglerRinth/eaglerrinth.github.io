@@ -1,14 +1,14 @@
 {
   "mods": [
     {
-      "display-name": "MeteorX",
-      "mod-name": "MeteorX",
+      "display-name": "THIS WEBSITE IS NOT FINISHED YET!",
+      "mod-name": "none",
       "author": "radmanplays",
-      "author-link": "https://github.com/radmanplays",
-      "description": "a hacked client for EaglerReborn",
-      "icon": "https://meteorclient.com/icon.png",
-      "repo-link": "https://github.com/radmanplays/MeteorX-ts",
-      "download-link": "https://raw.githubusercontent.com/radmanplays/MeteorX-ts/main/latest_build/meteorx.js"
+      "author-link": "",
+      "description": "check later for updates.",
+      "icon": "",
+      "repo-link": "",
+      "download-link": ""
     },
     {
       "display-name": "Cool Mod 2",
