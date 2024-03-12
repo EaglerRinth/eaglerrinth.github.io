@@ -16,7 +16,7 @@
       "author": "ModAuthor2",
       "author-link": "https://github.com/ModAuthor2",
       "description": "Check out this cool mod!",
-      "icon": "https://example.com/mod2-icon.png",
+      "icon": "https://raw.githubusercontent.com/EaglerRinth/eaglerrinth.github.io/main/images/mod2-icon.png",
       "repo-link": "https://github.com/ModAuthor2/cool-mod-2",
       "download-link": "https://example.com/mod2-download.zip"
     }
