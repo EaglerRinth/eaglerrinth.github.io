@@ -29,6 +29,27 @@
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/radmanplays/eaglerreborn-plugins",
       "download-link": "https://raw.githubusercontent.com/radmanplays/eaglerreborn-plugins/main/jetpack-ef.js"
+    },
+    {
+      "display-name": "Blink",
+      "mod-name": "blinkmod",
+      "author": "RadmanPlays",
+      "author-link": "https://github.com/ModAuthor2",
+      "description": "Check out this cool mod!",
+      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
+      "repo-link": "https://github.com/radmanplays/eaglerreborn-plugins",
+      "download-link": "https://raw.githubusercontent.com/eaglerforge/EaglerForge/main/ExampleMods/blink.js"
+    },
+    {
+      "display-name": "GrappleHook",
+      "mod-name": "graplehookmod",
+      "author": "RadmanPlays",
+      "author-link": "https://github.com/ModAuthor2",
+      "description": "Check out this cool mod!",
+      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
+      "repo-link": "https://github.com/radmanplays/eaglerreborn-plugins",
+      "download-link": "https://raw.githubusercontent.com/eaglerforge/EaglerForge/main/ExampleMods/grapplehook.js"
     }
+    
   ]
 }
