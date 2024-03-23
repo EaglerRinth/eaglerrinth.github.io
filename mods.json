@@ -19,6 +19,16 @@
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/Murturtle/Burmod",
       "download-link": "https://raw.githubusercontent.com/radmanplays/Burmod/main/out/plugin.js"
+    },
+    {
+      "display-name": "Jetpack",
+      "mod-name": "jetpack",
+      "author": "RadmanPlays",
+      "author-link": "https://github.com/ModAuthor2",
+      "description": "Check out this cool mod!",
+      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
+      "repo-link": "https://github.com/radmanplays/eaglerreborn-plugins",
+      "download-link": "https://raw.githubusercontent.com/radmanplays/eaglerreborn-plugins/main/jetpack-ef.js"
     }
   ]
 }
