@@ -11,14 +11,14 @@
       "download-link": ""
     },
     {
-      "display-name": "Cool Mod 2",
-      "mod-name": "cool-mod-2",
-      "author": "ModAuthor2",
+      "display-name": "Burmod (WIP)",
+      "mod-name": "burmod",
+      "author": "Whaat??",
       "author-link": "https://github.com/ModAuthor2",
       "description": "Check out this cool mod!",
       "icon": "https://raw.githubusercontent.com/EaglerRinth/eaglerrinth.github.io/main/images/mod2-icon.png",
-      "repo-link": "https://github.com/ModAuthor2/cool-mod-2",
-      "download-link": "https://example.com/mod2-download.zip"
+      "repo-link": "https://github.com/radmanplays/Burmod",
+      "download-link": "https://raw.githubusercontent.com/radmanplays/Burmod/main/out/plugin.js"
     }
   ]
 }
