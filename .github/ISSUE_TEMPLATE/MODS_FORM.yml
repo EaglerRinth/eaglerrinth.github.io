@@ -1,6 +1,6 @@
 name: "Submit Your Mod"
 description: form for submitting mods
-title: "[SUBMISSION] - <title>"
+title: "[SUBMISSION] - <replace this with the name of your mod>"
 labels: [
   "submission"
 ]
