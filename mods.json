@@ -11,6 +11,26 @@
       "download-link": "https://raw.githubusercontent.com/radmanplays/Burmod/main/out/plugin.js"
     },
     {
+      "display-name": "StatsHud",
+      "mod-name": "statshud",
+      "author": "Neverflagastralis",
+      "author-link": "https://github.com/AstralisLLC",
+      "description": "An all-new StatsHud, soon to be updated with customization functionality!",
+      "icon": "https://media.discordapp.net/attachments/1110272979058831440/1221128671788535808/StatsHudLogo.png?ex=661173b2&is=65fefeb2&hm=73c20ec2c8a9b31947ad8c0f9e2b50cbd2b089da73af1bbc2e1f05b3791a33b4&=&format=webp&quality=lossless&width=402&height=402",
+      "repo-link": "https://github.com/",
+      "download-link": "https://raw.githubusercontent.com/AstralisLLC/EaglerForge-Mods/main/StatsHudV3.js"
+    },
+    {
+      "display-name": "Keystrokes Mod",
+      "mod-name": "keysdrokes",
+      "author": "Hypverr",
+      "author-link": "https://github.com/Hypverr",
+      "description": "Simple Keystrokes Mod for eaglerforge.",
+      "icon": "https://raw.githubusercontent.com/Hypverr/Keystrokes-For-EaglerForge/main/images/icon.png",
+      "repo-link": "https://github.com/Hypverr/Keystrokes-For-EaglerForge/tree/main",
+      "download-link": "https://raw.githubusercontent.com/Hypverr/Keystrokes-For-EaglerForge/main/out/keystrokes-mod.js"
+    },
+    {
       "display-name": "Jetpack",
       "mod-name": "jetpack",
       "author": "radmanplays",
@@ -39,26 +59,6 @@
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/radmanplays/eaglerreborn-plugins",
       "download-link": "https://raw.githubusercontent.com/eaglerforge/EaglerForge/main/ExampleMods/grapplehook.js"
-    },
-    {
-      "display-name": "StatsHud",
-      "mod-name": "statshud",
-      "author": "Neverflagastralis",
-      "author-link": "https://github.com/AstralisLLC",
-      "description": "An all-new StatsHud, soon to be updated with customization functionality!",
-      "icon": "https://media.discordapp.net/attachments/1110272979058831440/1221128671788535808/StatsHudLogo.png?ex=661173b2&is=65fefeb2&hm=73c20ec2c8a9b31947ad8c0f9e2b50cbd2b089da73af1bbc2e1f05b3791a33b4&=&format=webp&quality=lossless&width=402&height=402",
-      "repo-link": "https://github.com/",
-      "download-link": "https://raw.githubusercontent.com/AstralisLLC/EaglerForge-Mods/main/StatsHudV3.js"
-    },
-    {
-      "display-name": "Keystrokes Mod",
-      "mod-name": "keysdrokes",
-      "author": "Hypverr",
-      "author-link": "https://github.com/Hypverr",
-      "description": "Simple Keystrokes Mod for eaglerforge.",
-      "icon": "https://raw.githubusercontent.com/Hypverr/Keystrokes-For-EaglerForge/main/images/icon.png",
-      "repo-link": "https://github.com/Hypverr/Keystrokes-For-EaglerForge/tree/main",
-      "download-link": "https://raw.githubusercontent.com/Hypverr/Keystrokes-For-EaglerForge/main/out/keystrokes-mod.js"
     }
   ]
 }
