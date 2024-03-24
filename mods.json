@@ -15,7 +15,7 @@
       "mod-name": "jetpack",
       "author": "radmanplays",
       "author-link": "https://github.com/radmanplays",
-      "description": "allows you to fly as if you had a jetpack. keybind: h",
+      "description": "allows you to fly as if you had a jetpack. keybind(hold): h",
       "icon": "/images/jetpack_scaled_16x_pngcrushed.png",
       "repo-link": "https://github.com/radmanplays/eaglerreborn-plugins",
       "download-link": "https://raw.githubusercontent.com/radmanplays/eaglerreborn-plugins/main/jetpack-ef.js"
