@@ -5,7 +5,7 @@
       "mod-name": "burmod",
       "author": "Murturtle",
       "author-link": "https://github.com/Murturtle/",
-      "description": "Check out this cool mod!",
+      "description": "client for eaglerforge",
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/Murturtle/Burmod",
       "download-link": "https://raw.githubusercontent.com/radmanplays/Burmod/main/out/plugin.js"
@@ -15,7 +15,7 @@
       "mod-name": "jetpack",
       "author": "radmanplays",
       "author-link": "https://github.com/radmanplays",
-      "description": "Check out this cool mod!",
+      "description": "allows you to fly as if you had a jetpack. keybind: h",
       "icon": "/images/jetpack_scaled_16x_pngcrushed.png",
       "repo-link": "https://github.com/radmanplays/eaglerreborn-plugins",
       "download-link": "https://raw.githubusercontent.com/radmanplays/eaglerreborn-plugins/main/jetpack-ef.js"
@@ -25,7 +25,7 @@
       "mod-name": "blinkmod",
       "author": "radmanplays",
       "author-link": "https://github.com/radmanplays",
-      "description": "Check out this cool mod!",
+      "description": "use by typing the .blinkon and .blinkoff commands and sending it",
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/radmanplays/eaglerreborn-plugins",
       "download-link": "https://raw.githubusercontent.com/eaglerforge/EaglerForge/main/ExampleMods/blink.js"
@@ -35,17 +35,17 @@
       "mod-name": "graplehookmod",
       "author": "radmanplays",
       "author-link": "https://github.com/radmanplays",
-      "description": "Check out this cool mod!",
+      "description": "grappling hook mod. how to use: 1.grab a fishing rod 2.use the fishing rod 3.grappling hook! ",
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/radmanplays/eaglerreborn-plugins",
       "download-link": "https://raw.githubusercontent.com/eaglerforge/EaglerForge/main/ExampleMods/grapplehook.js"
     },
     {
       "display-name": "StatsHud",
-      "mod-name": "stadahud",
+      "mod-name": "statshud",
       "author": "Neverflagastralis",
       "author-link": "https://github.com/AstralisLLC",
-      "description": "Check out this cool mod!",
+      "description": "An all-new StatsHud, soon to be updated with customization functionality!",
       "icon": "https://media.discordapp.net/attachments/1110272979058831440/1221128671788535808/StatsHudLogo.png?ex=661173b2&is=65fefeb2&hm=73c20ec2c8a9b31947ad8c0f9e2b50cbd2b089da73af1bbc2e1f05b3791a33b4&=&format=webp&quality=lossless&width=402&height=402",
       "repo-link": "https://github.com/",
       "download-link": "https://raw.githubusercontent.com/AstralisLLC/EaglerForge-Mods/main/StatsHudv3.js"
@@ -55,7 +55,7 @@
       "mod-name": "keysdrokes",
       "author": "Hypverr",
       "author-link": "https://github.com/Hypverr",
-      "description": "Check out this cool mod!",
+      "description": "Simple Keystrokes Mod for eaglerforge.",
       "icon": "https://raw.githubusercontent.com/Hypverr/Keystrokes-For-EaglerForge/main/images/icon.png",
       "repo-link": "https://github.com/Hypverr/Keystrokes-For-EaglerForge/tree/main",
       "download-link": "https://raw.githubusercontent.com/Hypverr/Keystrokes-For-EaglerForge/main/out/keystrokes-mod.js"
