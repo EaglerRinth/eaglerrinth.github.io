@@ -21,14 +21,14 @@
       "download-link": "https://raw.githubusercontent.com/AstralisLLC/EaglerForge-Mods/main/StatsHudV3.js"
     },
     {
-      "display-name": "Keystrokes Mod",
-      "mod-name": "keysdrokes",
+      "display-name": "SolarClient",
+      "mod-name": "solarclient",
       "author": "Hypverr",
       "author-link": "https://github.com/Hypverr",
-      "description": "Simple Keystrokes Mod for eaglerforge.",
-      "icon": "https://raw.githubusercontent.com/Hypverr/Keystrokes-For-EaglerForge/main/images/icon.png",
-      "repo-link": "https://github.com/Hypverr/Keystrokes-For-EaglerForge/tree/main",
-      "download-link": "https://raw.githubusercontent.com/Hypverr/Keystrokes-For-EaglerForge/main/out/keystrokes-mod.js"
+      "description": "Simple Client Mod for EaglerForge.",
+      "icon": "https://raw.githubusercontent.com/Hypverr/Solar-Client/main/images/icon.png",
+      "repo-link": "https://github.com/Hypverr/Solar-Client",
+      "download-link": "https://raw.githubusercontent.com/Hypverr/Solar-Client/main/out/solar-client.js"
     },
     {
       "display-name": "Jetpack",
