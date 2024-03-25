@@ -56,7 +56,7 @@
       "author": "radmanplays",
       "author-link": "https://github.com/radmanplays",
       "description": "grappling hook mod. how to use: 1.grab a fishing rod 2.use the fishing rod 3.grappling hook! ",
-      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
+      "icon": "/images/grappling-gun.png",
       "repo-link": "https://github.com/radmanplays/eaglerreborn-plugins",
       "download-link": "https://raw.githubusercontent.com/eaglerforge/EaglerForge/main/ExampleMods/grapplehook.js"
     }
