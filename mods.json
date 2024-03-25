@@ -25,7 +25,7 @@
       "mod-name": "solarclient",
       "author": "Hypverr",
       "author-link": "https://github.com/Hypverr",
-      "description": "Simple Client Mod for EaglerForge.",
+      "description": "Simple Client Mod for EaglerForge. There are many mods you can use it.",
       "icon": "https://raw.githubusercontent.com/Hypverr/Solar-Client/main/images/icon.png",
       "repo-link": "https://github.com/Hypverr/Solar-Client",
       "download-link": "https://raw.githubusercontent.com/Hypverr/Solar-Client/main/out/solar-client.js"
