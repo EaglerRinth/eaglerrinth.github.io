@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             <div class="mt-3">
                                 <a href="${mod['repo-link']}" class="btn btn-primary" target="_blank">View Source</a>
                                 <a href="${mod['download-link']}" class="btn btn-success" download target="_blank">Download</a>
+                                <a href="${mod['download-link']}" class="btn btn-success" download target="_blank">Copy</a>
                             </div>
                         </div>
                     </div>`;
