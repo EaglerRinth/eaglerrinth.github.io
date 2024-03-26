@@ -13,6 +13,16 @@ document.addEventListener("DOMContentLoaded", function () {
                 const card = document.createElement('div');
                 card.className = 'col-md-11 col-lg-12 col-xl-11';
 
+            const copyRepoLink = (repoLink) => {
+            const el = document.createElement('textarea');
+            el.value = repoLink;
+            document.body.appendChild(el);
+            el.select();
+            document.execCommand('copy');
+            document.body.removeChild(el);
+};
+
+
                 card.innerHTML = `
                     <div class="card">
                         <div class="card-body p-4">
@@ -26,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             <div class="mt-3">
                                 <a href="${mod['repo-link']}" class="btn btn-primary" target="_blank">View Source</a>
                                 <a href="${mod['download-link']}" class="btn btn-success" download target="_blank">Download</a>
-                                <a href="${mod['download-link']}" class="btn btn-success" download target="_blank">Copy</a>
+                                <a href="#" class="btn btn-success" onclick="copyRepoLink('${mod['repo-link']}')">Copy</a>
                             </div>
                         </div>
                     </div>`;
