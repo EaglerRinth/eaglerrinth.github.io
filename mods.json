@@ -31,6 +31,36 @@
       "download-link": "https://raw.githubusercontent.com/Hypverr/Solar-Client/main/out/solar-client.js"
     },
     {
+      "display-name": "FreshEaglerUI",
+      "mod-name": "freshui",
+      "author": "Murturtle",
+      "author-link": "https://github.com/Murturtle",
+      "description": "Makes the UIs slide in and re works the main screen!",
+      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
+      "repo-link": "https://github.com/Murturtle/MursMods/blob/main/FreshEaglerUI.js",
+      "download-link": "https://raw.githubusercontent.com/Murturtle/MursMods/main/FreshEaglerUI.js"
+    },
+    {
+      "display-name": "SemiAutoLogin",
+      "mod-name": "autologin",
+      "author": "Murturtle",
+      "author-link": "https://github.com/Murturtle",
+      "description": "Press L to login without typing!",
+      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
+      "repo-link": "https://github.com/Murturtle/MursMods/blob/main/SemiAutoLogin.js",
+      "download-link": "https://raw.githubusercontent.com/Murturtle/MursMods/main/SemiAutoLogin.js"
+    },
+    {
+      "display-name": "Blur",
+      "mod-name": "blur",
+      "author": "Murturtle",
+      "author-link": "https://github.com/Murturtle",
+      "description": "Makes your fps 5 when unfocused!",
+      "icon": "https://raw.githubusercontent.com/Murturtle/MursMods/main/Blur.png",
+      "repo-link": "https://github.com/Murturtle/MursMods/blob/main/Blur.js",
+      "download-link": "https://raw.githubusercontent.com/Murturtle/MursMods/main/Blur.js"
+    },
+    {
       "display-name": "Jetpack",
       "mod-name": "jetpack",
       "author": "radmanplays",
