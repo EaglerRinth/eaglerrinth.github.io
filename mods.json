@@ -89,6 +89,66 @@
       "icon": "/images/grappling-gun.png",
       "repo-link": "https://github.com/radmanplays/eaglerreborn-plugins",
       "download-link": "https://raw.githubusercontent.com/eaglerforge/EaglerForge/main/ExampleMods/grapplehook.js"
+    },
+    {
+      "display-name": "Xray 2.0",
+      "mod-name": "xraymod",
+      "author": "radmanplays",
+      "author-link": "https://github.com/radmanplays",
+      "description": "Placeholider ",
+      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
+      "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods",
+      "download-link": "https://raw.githubusercontent.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods/Xray20.js"
+    },
+    {
+      "display-name": "Chat Shortcuts",
+      "mod-name": "chatshortcutsmod",
+      "author": "radmanplays",
+      "author-link": "https://github.com/radmanplays",
+      "description": "Placeholider ",
+      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
+      "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods",
+      "download-link": "https://raw.githubusercontent.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods/ChatShortcuts.js"
+    },
+    {
+      "display-name": "NoFall",
+      "mod-name": "nofallmod",
+      "author": "radmanplays",
+      "author-link": "https://github.com/radmanplays",
+      "description": "Placeholider ",
+      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
+      "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods",
+      "download-link": "https://raw.githubusercontent.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods/NoFall.js"
+    },
+    {
+      "display-name": "Speed Mod",
+      "mod-name": "speedmod",
+      "author": "radmanplays",
+      "author-link": "https://github.com/radmanplays",
+      "description": "Placeholider ",
+      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
+      "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods",
+      "download-link": "https://raw.githubusercontent.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods/Speed.js"
+    },
+    {
+      "display-name": "Xray 2.0",
+      "mod-name": "xraymod",
+      "author": "radmanplays",
+      "author-link": "https://github.com/radmanplays",
+      "description": "Placeholider ",
+      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
+      "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods",
+      "download-link": "https://raw.githubusercontent.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods/Xray20.js"
+    },
+    {
+      "display-name": "AutoFish",
+      "mod-name": "autofishmod",
+      "author": "radmanplays",
+      "author-link": "https://github.com/radmanplays",
+      "description": "Placeholider ",
+      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
+      "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods",
+      "download-link": "https://raw.githubusercontent.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods/AutoFish.js"
     }
   ]
 }
