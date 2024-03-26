@@ -36,7 +36,7 @@
       "author": "Murturtle",
       "author-link": "https://github.com/Murturtle",
       "description": "Makes the UIs slide in and re works the main screen!",
-      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
+      "icon": "/images/freshui.png",
       "repo-link": "https://github.com/Murturtle/MursMods/blob/main/FreshEaglerUI.js",
       "download-link": "https://raw.githubusercontent.com/Murturtle/MursMods/main/FreshEaglerUI.js"
     },
@@ -98,7 +98,7 @@
       "description": "Placeholider ",
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods",
-      "download-link": "https://raw.githubusercontent.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods/Xray20.js"
+      "download-link": "/CommunityMods/Xray20.js"
     },
     {
       "display-name": "Chat Shortcuts",
@@ -108,7 +108,7 @@
       "description": "Placeholider ",
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods",
-      "download-link": "https://raw.githubusercontent.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods/ChatShortcuts.js"
+      "download-link": "/CommunityMods/ChatShortcuts.js"
     },
     {
       "display-name": "NoFall",
@@ -118,7 +118,7 @@
       "description": "Placeholider ",
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods",
-      "download-link": "https://raw.githubusercontent.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods/NoFall.js"
+      "download-link": "/CommunityMods/NoFall.js"
     },
     {
       "display-name": "Speed Mod",
@@ -128,7 +128,7 @@
       "description": "Placeholider ",
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods",
-      "download-link": "https://raw.githubusercontent.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods/Speed.js"
+      "download-link": "/CommunityMods/Speed.js"
     },
     {
       "display-name": "AutoFish",
@@ -138,7 +138,7 @@
       "description": "Placeholider ",
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods",
-      "download-link": "https://raw.githubusercontent.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods/AutoFish.js"
+      "download-link": "/CommunityMods/AutoFish.js"
     }
   ]
 }
