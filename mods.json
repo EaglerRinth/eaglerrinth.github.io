@@ -91,14 +91,14 @@
       "download-link": "https://raw.githubusercontent.com/eaglerforge/EaglerForge/main/ExampleMods/grapplehook.js"
     },
     {
-      "display-name": "Xray 2.0",
+      "display-name": "Xray",
       "mod-name": "xraymod",
       "author": "radmanplays",
       "author-link": "https://github.com/radmanplays",
-      "description": "Placeholider ",
+      "description": "simple xray mod. keybind: x",
       "icon": "/images/xray.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods",
-      "download-link": "/CommunityMods/Xray20.js"
+      "download-link": "/CommunityMods/Xray.js"
     },
     {
       "display-name": "Chat Shortcuts",
