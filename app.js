@@ -14,12 +14,18 @@ document.addEventListener("DOMContentLoaded", function () {
                 card.className = 'col-md-11 col-lg-12 col-xl-11';
 
             const copyRepoLink = (repoLink) => {
-            const el = document.createElement('textarea');
-            el.value = repoLink;
-            document.body.appendChild(el);
-            el.select();
-            document.execCommand('copy');
-            document.body.removeChild(el);
+    const el = document.createElement('textarea');
+    el.value = repoLink;
+    document.body.appendChild(el);
+    el.select();
+    try {
+        const successful = document.execCommand('copy');
+        const message = successful ? 'Link copied to clipboard' : 'Unable to copy link to clipboard';
+        alert(message);
+    } catch (err) {
+        alert('Error copying link to clipboard');
+    }
+    document.body.removeChild(el);
 };
 
 
