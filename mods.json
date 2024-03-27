@@ -106,7 +106,7 @@
       "author": "radmanplays",
       "author-link": "https://github.com/radmanplays",
       "description": "full bright mod for eaglerforge. keybind(enabled by default): f",
-      "icon": "/images/fullbright.png",
+      "icon": "/images/fullBright.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods",
       "download-link": "/CommunityMods/fullbright.js"
     },
