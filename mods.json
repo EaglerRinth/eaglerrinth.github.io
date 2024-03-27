@@ -95,7 +95,17 @@
       "mod-name": "xraymod",
       "author": "radmanplays",
       "author-link": "https://github.com/radmanplays",
-      "description": "simple xray mod. keybind: x",
+      "description": "simple xray mod. its recommended to use this with Fullbright. keybind: x",
+      "icon": "/images/xray.png",
+      "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods",
+      "download-link": "/CommunityMods/Xray.js"
+    },
+    {
+      "display-name": "Fullbright",
+      "mod-name": "fullbright",
+      "author": "radmanplays",
+      "author-link": "https://github.com/radmanplays",
+      "description": "full bright mod for eaglerforge. keybind(enabled by default): f",
       "icon": "/images/xray.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods",
       "download-link": "/CommunityMods/Xray.js"
