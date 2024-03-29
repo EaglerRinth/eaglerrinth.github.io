@@ -17,7 +17,7 @@
       "author-link": "https://github.com/AstralisLLC",
       "description": "An all-new StatsHud, soon to be updated with customization functionality!",
       "icon": "/images/newstatHUD.png",
-      "repo-link": "https://github.com/",
+      "repo-link": "https://guthib.com/",
       "download-link": "https://raw.githubusercontent.com/AstralisLLC/EaglerForge-Mods/main/StatsHudV3.js"
     },
     {
@@ -39,6 +39,16 @@
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/Murturtle/MursMods/blob/main/FreshEaglerUI.js",
       "download-link": "https://raw.githubusercontent.com/Murturtle/MursMods/main/FreshEaglerUI.js"
+    },
+    {
+      "display-name": "Chat commands mod",
+      "mod-name": "chatcmd",
+      "author": "Neverflagastralis",
+      "author-link": "https://github.com/AstralisLLC",
+      "description": "An open source mod with a built in customizable bug reports system!",
+      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
+      "repo-link": "https://github.com/AstralisLLC/EaglerForge-Mods/main/chat%20utils.js",
+      "download-link": "https://raw.githubusercontent.com/AstralisLLC/EaglerForge-Mods/main/chat%20utils.js"
     },
     {
       "display-name": "SemiAutoLogin",
