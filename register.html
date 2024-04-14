@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration and Login Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      width: 300px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+    }
+
+    input[type="submit"] {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: blue;
+      color: white;
+      border: none;
+    }
+
+    .toggle-form {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Registration Form</h2>
+    <form id="registration-form">
+      <label for="reg-email">Email:</label>
+      <input type="email" id="reg-email" name="email">
+
+      <label for="reg-username">Username:</label>
+      <input type="text" id="reg-username" name="username">
+
+      <label for="reg-password">Password:</label>
+      <input type="password" id="reg-password" name="password">
+
+      <input type="submit" value="Register">
+    </form>
+
+    <div class="toggle-form" id="toggle-login">Already have an account? Login here.</div>
+  </div>
+
+  <div class="container" id="login-container" style="display: none;">
+    <h2>Login Form</h2>
+    <form id="login-form">
+      <label for="log-username">Username:</label>
+      <input type="text" id="log-username" name="username">
+
+      <label for="log-password">Password:</label>
+      <input type="password" id="log-password" name="password">
+
+      <input type="submit" value="Login">
+    </form>
+
+    <div class="toggle-form" id="toggle-register">Don't have an account? Register here.</div>
+  </div>
+
+  <script>
+    const registrationForm = document.getElementById("registration-form");
+    const loginForm = document.getElementById("login-form");
+
+    document.getElementById("toggle-login").addEventListener("click", () => {
+      registrationForm.style.display = "none";
+      loginForm.style.display = "block";
+    });
+
+    document.getElementById("toggle-register").addEventListener("click", () => {
+      registrationForm.style.display = "block";
+      loginForm.style.display = "none";
+    });
+  </script>
+</body>
+</html>
