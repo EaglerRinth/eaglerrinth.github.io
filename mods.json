@@ -1,16 +1,6 @@
 {
   "mods": [
     {
-      "display-name": "Barney's Music Mod",
-      "mod-name": "barneysmusicmod",
-      "author": "BarneyTheGod",
-      "author-link": "https://github.com/BarneyCompiler",
-      "description": "Plays a users music through a direct mp3 link. Saves music through Local Browser storage.",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNY9cuS9betbnjFw2W_ZCXs_hW9IPgxtIXKUPYxIV1mw&s",
-      "repo-link": "https://github.com/BarneyCompiler/barneysmods/blob/main/Barneys%20Music%20Player",
-      "download-link": "https://raw.githubusercontent.com/BarneyCompiler/barneysmods/main/Barneys%20Music%20Player"
-    },
-    {
       "display-name": "Burmod WIP",
       "mod-name": "burmod",
       "author": "Murturtle",
@@ -79,6 +69,16 @@
       "icon": "/images/jetpack_scaled_16x_pngcrushed.png",
       "repo-link": "https://github.com/radmanplays/eaglerreborn-plugins",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/jetpack-ef.js"
+    },
+    {
+      "display-name": "Barney's Music Mod",
+      "mod-name": "barneysmusicmod",
+      "author": "BarneyTheGod",
+      "author-link": "https://github.com/BarneyCompiler",
+      "description": "Plays a users music through a direct mp3 link. Saves music through Local Browser storage.",
+      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNY9cuS9betbnjFw2W_ZCXs_hW9IPgxtIXKUPYxIV1mw&s",
+      "repo-link": "https://github.com/BarneyCompiler/barneysmods/blob/main/Barneys%20Music%20Player",
+      "download-link": "https://raw.githubusercontent.com/BarneyCompiler/barneysmods/main/Barneys%20Music%20Player"
     },
     {
       "display-name": "Blink",
