@@ -83,21 +83,21 @@
     {
       "display-name": "Blink",
       "mod-name": "blinkmod",
-      "author": "radmanplays",
-      "author-link": "https://github.com/radmanplays",
+      "author": "ZXMushroom63",
+      "author-link": "https://github.com/ZXMushroom63",
       "description": "use by typing the .blinkon and .blinkoff commands and sending it",
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
-      "repo-link": "https://github.com/radmanplays/eaglerreborn-plugins",
+      "repo-link": "https://github.com/eaglerforge/EaglerForge",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/blink.js"
     },
     {
       "display-name": "GrappleHook",
       "mod-name": "graplehookmod",
-      "author": "radmanplays",
-      "author-link": "https://github.com/radmanplays",
+      "author": "ZXMushroom63",
+      "author-link": "https://github.com/ZXMushroom63",
       "description": "grappling hook mod. how to use: 1.grab a fishing rod 2.use the fishing rod 3.grappling hook! ",
       "icon": "/images/grappling-gun.png",
-      "repo-link": "https://github.com/radmanplays/eaglerreborn-plugins",
+      "repo-link": "https://github.com/eaglerforge/EaglerForge",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/grapplehook.js"
     },
     {
@@ -105,7 +105,7 @@
       "mod-name": "xraymod",
       "author": "radmanplays",
       "author-link": "https://github.com/radmanplays",
-      "description": "simple xray mod. its recommended to use this with Fullbright. keybind: x",
+      "description": "simple xray mod. its recommended to use this with Fullbright(modified version of ZXMushroom63's coal xray). keybind: x",
       "icon": "/images/xray.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/Xray.js"
@@ -143,8 +143,8 @@
     {
       "display-name": "Chat Shortcuts",
       "mod-name": "chatshortcutsmod",
-      "author": "radmanplays",
-      "author-link": "https://github.com/radmanplays",
+      "author": "ZXMushroom63",
+      "author-link": "https://github.com/ZXMushroom63",
       "description": "shortcuts: {health}, {pos}, {name}, {me}, {x}, {y}, {z}, {level}, {walked}, {chunk}",
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/tree/main/CommunityMods",
@@ -153,8 +153,8 @@
     {
       "display-name": "NoFall",
       "mod-name": "nofallmod",
-      "author": "radmanplays",
-      "author-link": "https://github.com/radmanplays",
+      "author": "ZXMushroom63",
+      "author-link": "https://github.com/ZXMushroom63",
       "description": "makes you not take fall damage",
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/tree/main/CommunityMods",
@@ -163,8 +163,8 @@
     {
       "display-name": "AutoFish",
       "mod-name": "autofishmod",
-      "author": "radmanplays",
-      "author-link": "https://github.com/radmanplays",
+      "author": "ZXMushroom63",
+      "author-link": "https://github.com/ZXMushroom63",
       "description": "fishes for you. just throw a fishing rod in water to use this mod",
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/tree/main/CommunityMods",
