@@ -1,32 +1,24 @@
-name: Run the site
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    branches:
+      - main  # Change this to your default branch
 
 jobs:
-  build:
-
+  deploy:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [18.x, 20.x, 22.x]
 
     steps:
     - uses: actions/checkout@v4
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Set up Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
+        node-version: '18.x'  # or any version you prefer
     - run: npm install
-    - name: Run Server and Test
-      run: |
-        npm start &
-        sleep 10
-        curl --silent --fail http://localhost:3000
-      env:
-        NODE_ENV: test
+    - run: npm run build
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public  # Directory where your static files are located
