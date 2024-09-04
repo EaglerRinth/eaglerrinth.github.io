@@ -19,12 +19,29 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '20'  
+          node-version: '20'
 
       - name: Install dependencies
         run: npm install
 
+      - name: Download ngrok
+        run: |
+          curl -s https://ngrok.com/download | tar xz
+          sudo mv ngrok /usr/local/bin
+
       - name: Run application
-        run: npm start
-        env:
-          NODE_ENV: production 
+        run: |
+          npm start &
+          sleep 10  # wait for the application to start
+
+      - name: Expose application with ngrok
+        run: |
+          ngrok http 3000 > /dev/null &
+          sleep 10  # wait for ngrok to establish the tunnel
+
+      - name: Get ngrok URL
+        run: |
+          curl -s http://localhost:4040/api/tunnels | jq -r '.tunnels[0].public_url'
+
+      - name: Run tests
+        run: npm test
