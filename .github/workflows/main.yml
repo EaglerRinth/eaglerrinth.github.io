@@ -24,10 +24,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Download ngrok
+      - name: Download and install ngrok
         run: |
-          curl -s https://ngrok.com/download | tar xz
-          sudo mv ngrok /usr/local/bin
+          curl -s https://bin.equinox.io/c/4b397n7Adw7/ngrok-stable-linux-amd64.tgz -o ngrok.tgz
+          tar xzf ngrok.tgz
+          sudo mv ngrok /usr/local/bin/
 
       - name: Run application
         run: |
