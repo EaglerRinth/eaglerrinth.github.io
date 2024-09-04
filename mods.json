@@ -177,8 +177,38 @@
       "author-link": "oeil-de-lynx",
       "description": "Just Enough Items, but Eagler!",
       "icon": "https://media.discordapp.net/attachments/1278368733563457628/1278368734041473045/image.png?ex=66d91ee9&is=66d7cd69&hm=7392fe079fc415e34b49c67428f553ebbf22b997e82a161e83783a22ebe9fc41&=&format=webp&quality=lossless&width=662&height=626",
-      "repo-link": "about:blank",
+      "repo-link": "https://github.com/OeildeLynx31/eaglerforge-mods/tree/main",
       "download-link": "/CommunityMods/JEI.js"
+    },
+    {
+      "display-name": "Auto Respawn",
+      "mod-name": "autorespawn",
+      "author": "Oeil-de-Lynx",
+      "author-link": "oeil-de-lynx",
+      "description": "Eagler Autorespawning!",
+      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
+      "repo-link": "https://github.com/OeildeLynx31/eaglerforge-mods/tree/main",
+      "download-link": "/CommunityMods/player_vision.js"
+    },
+    {
+      "display-name": "Jump Boost",
+      "mod-name": "jumpboost",
+      "author": "Oeil-de-Lynx",
+      "author-link": "oeil-de-lynx",
+      "description": "Permanent Jumpboost!",
+      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
+      "repo-link": "https://github.com/OeildeLynx31/eaglerforge-mods/tree/main",
+      "download-link": "/CommunityMods/jump_boost.js"
+    },
+    {
+      "display-name": "PlayerVision",
+      "mod-name": "playervision",
+      "author": "Oeil-de-Lynx",
+      "author-link": "oeil-de-lynx",
+      "description": "See other players in your Eaglerforge servers!",
+      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
+      "repo-link": "https://github.com/OeildeLynx31/eaglerforge-mods/tree/main",
+      "download-link": "/CommunityMods/player_vision.js"
     }
   ]
 }

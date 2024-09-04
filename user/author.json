@@ -55,9 +55,12 @@
       {
         "id": "Oeil-de-Lynx",
         "name": "Oeil-de-Lynx",
-        "github": null,
+        "github": "https://github.com/OeildeLynx31/",
         "mods": [
-          "jei"
+          "jei",
+          "autorespawn",
+          "jumpboost",
+          "playervision"
         ]
       }
     ]
