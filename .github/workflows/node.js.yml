@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Run the site
 
 on:
   push:
@@ -23,6 +23,10 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm install
-    - run: npm test
+    - name: Run Server and Test
+      run: |
+        npm start &
+        sleep 10
+        curl --silent --fail http://localhost:3000
       env:
         NODE_ENV: test
