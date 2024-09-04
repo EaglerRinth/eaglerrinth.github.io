@@ -16,7 +16,7 @@
       "author": "Neverflagastralis",
       "author-link": "https://github.com/AstralisLLC",
       "description": "An all-new StatsHud, soon to be updated with customization functionality!",
-      "icon": "images/newstatHUD.png",
+      "icon": "/images/newstatHUD.png",
       "repo-link": "https://github.com/AstralisLLC/EaglerForge-Mods/blob/main/StatsHudV3.js",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/StatsHudV3.js"
     },
@@ -66,7 +66,7 @@
       "author": "radmanplays",
       "author-link": "https://github.com/radmanplays",
       "description": "allows you to fly as if you had a jetpack. keybind(hold): h",
-      "icon": "images/jetpack_scaled_16x_pngcrushed.png",
+      "icon": "/images/jetpack_scaled_16x_pngcrushed.png",
       "repo-link": "https://github.com/radmanplays/eaglerreborn-plugins",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/jetpack-ef.js"
     },
@@ -76,7 +76,7 @@
       "author": "BarneyTheGod",
       "author-link": "https://github.com/BarneyCompiler",
       "description": "Plays a users music through a direct mp3 link. Saves music through Local Browser storage.",
-      "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNY9cuS9betbnjFw2W_ZCXs_hW9IPgxtIXKUPYxIV1mw&s",
+      "icon": "https://encrypted-tbn0.gstatic.com//images?q=tbn:ANd9GcQNY9cuS9betbnjFw2W_ZCXs_hW9IPgxtIXKUPYxIV1mw&s",
       "repo-link": "https://github.com/BarneyCompiler/barneysmods/blob/main/Barneys%20Music%20Player",
       "download-link": "https://raw.githubusercontent.com/BarneyCompiler/barneysmods/main/Barneys%20Music%20Player"
     },
@@ -96,7 +96,7 @@
       "author": "ZXMushroom63",
       "author-link": "https://github.com/ZXMushroom63",
       "description": "grappling hook mod. how to use: 1.grab a fishing rod 2.use the fishing rod 3.grappling hook! ",
-      "icon": "images/grappling-gun.png",
+      "icon": "/images/grappling-gun.png",
       "repo-link": "https://github.com/eaglerforge/EaglerForge",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/grapplehook.js"
     },
@@ -106,7 +106,7 @@
       "author": "radmanplays",
       "author-link": "https://github.com/radmanplays",
       "description": "simple xray mod. its recommended to use this with Fullbright(modified version of ZXMushroom63's coal xray). keybind: x",
-      "icon": "images/xray.png",
+      "icon": "/images/xray.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/Xray.js"
     },
@@ -116,7 +116,7 @@
       "author": "radmanplays",
       "author-link": "https://github.com/radmanplays",
       "description": "full bright mod for eaglerforge. keybind(enabled by default): f",
-      "icon": "images/fullBright.png",
+      "icon": "/images/fullBright.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/tree/main/CommunityMods",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/fullbright.js"
     },
@@ -126,7 +126,7 @@
       "author": "radmanplays",
       "author-link": "https://github.com/radmanplays",
       "description": "this mod clicks for you",
-      "icon": "images/newautoclicker.png",
+      "icon": "/images/newautoclicker.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/tree/main/CommunityMods",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/autoclicker.js"
     },
@@ -136,7 +136,7 @@
       "author": "radmanplays",
       "author-link": "https://github.com/radmanplays",
       "description": "makes you faster",
-      "icon": "images/speed.png",
+      "icon": "/images/speed.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/tree/main/CommunityMods",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/Speed.js"
     },
