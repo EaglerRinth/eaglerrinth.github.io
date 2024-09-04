@@ -1,9 +1,9 @@
-# Eaglerrinth
-### Eaglerrinth is the place where you can get all MODDED Eagler things!
+# Eaglerrinth+
+### Eaglerrinth+ is the place where you can get all MODDED Eagler things! Eaglerrinth+ is a fork that contributes back to Eaglerrinth
 ### to do
 - [x] stuff
+- [x]  Add Dedicated Mod Creator Pages 
 - [ ] Add Resource Packs
-- [ ] Add Dedicated Mod Creator Pages 
 - [ ] Make Backend
 - [ ] Eaglerforge Clients Page
 - [ ] Eaglerforge Injector Added
