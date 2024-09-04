@@ -3,4 +3,6 @@ the website
 
 ### to do
 - [x] stuff
-- [ ] add dedicated section for specific mod creators that make lots of mods
+- [ ] Add Resource Packs
+- [ ] Add Dedicated Mod Creator Pages 
+- [ ] Make Backend
