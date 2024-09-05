@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(response => response.json())
         .then(data => {
             const modContainer = document.getElementById('modContainer');
+            const categorySelect = document.getElementById('categorySelect');
             const searchInput = document.getElementById('searchInput');
 
             function createCard(mod) {
@@ -15,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <img src="${mod.icon}" class="mod-icon me-3" alt="${mod['display-name']} Icon">
                                 <div>
                                     <h5 class="card-title m-0">${mod['display-name']}</h5>
-                                    <p class="card-subtitle text-muted mb-2" >Author: <a href="user/?user=${mod.author}" class="link-light">${mod.author}</a></p>
+                                    <p class="card-subtitle text-muted mb-2">Author: <a href="user/?user=${mod.author}" class="link-light">${mod.author}</a></p>
                                 </div>
                             </div>
                             <p class="card-text mt-3">${mod.description}</p>
@@ -25,14 +26,26 @@ document.addEventListener("DOMContentLoaded", function () {
                             <a href="${mod['download-link']}" class="btn btn-success btn-sm" download target="_blank">Download</a>
                         </div>
                     </div>`;
-                
                 return card;
             }
 
-            data.mods.forEach(mod => {
-                const card = createCard(mod);
-                modContainer.appendChild(card);
+            const uniqueCategories = [...new Set(data.mods.map(mod => mod.category))];
+            uniqueCategories.forEach(category => {
+                const option = document.createElement('option');
+                option.value = category;
+                option.textContent = category;
+                categorySelect.appendChild(option);
             });
+
+            function renderMods(mods) {
+                modContainer.innerHTML = '';
+                mods.forEach(mod => {
+                    const card = createCard(mod);
+                    modContainer.appendChild(card);
+                });
+            }
+
+            renderMods(data.mods);
 
             searchInput.addEventListener('input', () => {
                 const searchValue = searchInput.value.toLowerCase();
@@ -41,12 +54,15 @@ document.addEventListener("DOMContentLoaded", function () {
                     mod.description.toLowerCase().includes(searchValue) ||
                     mod.author.toLowerCase().includes(searchValue)
                 );
+                renderMods(filteredMods);
+            });
 
-                modContainer.innerHTML = '';
-                filteredMods.forEach(mod => {
-                    const card = createCard(mod);
-                    modContainer.appendChild(card);
-                });
+            categorySelect.addEventListener('change', () => {
+                const selectedCategory = categorySelect.value;
+                const filteredMods = selectedCategory === 'All' 
+                    ? data.mods 
+                    : data.mods.filter(mod => mod.category === selectedCategory);
+                renderMods(filteredMods);
             });
         })
         .catch(error => console.error('Error fetching mods.json:', error));

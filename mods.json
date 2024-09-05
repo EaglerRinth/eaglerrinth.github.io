@@ -8,7 +8,9 @@
       "description": "client for eaglerforge (v0.2)",
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/Murturtle/Burmod",
-      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/burmod.js"
+      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/burmod.js",
+      "category": "Client"
+
     },
     {
       "display-name": "StatsHud",
@@ -18,7 +20,9 @@
       "description": "An all-new StatsHud, soon to be updated with customization functionality!",
       "icon": "/images/newstatHUD.png",
       "repo-link": "https://github.com/AstralisLLC/EaglerForge-Mods/blob/main/StatsHudV3.js",
-      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/StatsHudV3.js"
+      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/StatsHudV3.js",
+      "category": "UI"
+
     },
     {
       "display-name": "FreshEaglerUI",
@@ -28,7 +32,9 @@
       "description": "Makes the UIs slide in and re works the main screen!",
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/Murturtle/MursMods/blob/main/FreshEaglerUI.js",
-      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/FreshEaglerUI.js"
+      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/FreshEaglerUI.js",
+      "category": "UI"
+
     },
     {
       "display-name": "Chat commands mod",
@@ -38,7 +44,9 @@
       "description": "An open source mod with a built in customizable bug reports system!",
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/AstralisLLC/EaglerForge-Mods/main/chat%20utils.js",
-      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/chat.utils.js"
+      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/chat.utils.js",
+      "category": "Chat"
+
     },
     {
       "display-name": "SemiAutoLogin",
@@ -48,7 +56,9 @@
       "description": "Press L to login without typing!",
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/Murturtle/MursMods/blob/main/SemiAutoLogin.js",
-      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/SemiAutoLogin.js"
+      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/SemiAutoLogin.js",
+      "category": "Chat"
+
     },
     {
       "display-name": "Blur",
@@ -58,7 +68,9 @@
       "description": "Makes your fps 5 when unfocused!",
       "icon": "https://raw.githubusercontent.com/Murturtle/MursMods/main/Blur.png",
       "repo-link": "https://github.com/Murturtle/MursMods/blob/main/Blur.js",
-      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/Blur.js"
+      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/Blur.js",
+      "category": "Preformance"
+
     },
     {
       "display-name": "Jetpack",
@@ -68,7 +80,9 @@
       "description": "allows you to fly as if you had a jetpack. keybind(hold): h",
       "icon": "/images/jetpack_scaled_16x_pngcrushed.png",
       "repo-link": "https://github.com/radmanplays/eaglerreborn-plugins",
-      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/jetpack-ef.js"
+      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/jetpack-ef.js",
+      "category": "Player-Benefits"
+
     },
     {
       "display-name": "Barney's Music Mod",
@@ -78,7 +92,9 @@
       "description": "Plays a users music through a direct mp3 link. Saves music through Local Browser storage.",
       "icon": "https://encrypted-tbn0.gstatic.com//images?q=tbn:ANd9GcQNY9cuS9betbnjFw2W_ZCXs_hW9IPgxtIXKUPYxIV1mw&s",
       "repo-link": "https://github.com/BarneyCompiler/barneysmods/blob/main/Barneys%20Music%20Player",
-      "download-link": "https://raw.githubusercontent.com/BarneyCompiler/barneysmods/main/Barneys%20Music%20Player"
+      "download-link": "https://raw.githubusercontent.com/BarneyCompiler/barneysmods/main/Barneys%20Music%20Player",
+      "category": "Addons"
+
     },
     {
       "display-name": "Blink",
@@ -88,7 +104,9 @@
       "description": "use by typing the .blinkon and .blinkoff commands and sending it",
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/eaglerforge/EaglerForge",
-      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/blink.js"
+      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/blink.js",
+      "category": "Misc"
+
     },
     {
       "display-name": "GrappleHook",
@@ -98,7 +116,9 @@
       "description": "grappling hook mod. how to use: 1.grab a fishing rod 2.use the fishing rod 3.grappling hook! ",
       "icon": "/images/grappling-gun.png",
       "repo-link": "https://github.com/eaglerforge/EaglerForge",
-      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/grapplehook.js"
+      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/grapplehook.js",
+      "category": "Addons"
+
     },
     {
       "display-name": "Xray",
@@ -108,7 +128,9 @@
       "description": "simple xray mod. its recommended to use this with Fullbright(modified version of ZXMushroom63's coal xray). keybind: x",
       "icon": "/images/xray.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods",
-      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/Xray.js"
+      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/Xray.js",
+      "category": "Player-Benefits"
+
     },
     {
       "display-name": "Fullbright",
@@ -118,7 +140,9 @@
       "description": "full bright mod for eaglerforge. keybind(enabled by default): f",
       "icon": "/images/fullBright.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/tree/main/CommunityMods",
-      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/fullbright.js"
+      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/fullbright.js",
+      "category": "Player-Benefits"
+
     },
     {
       "display-name": "Autoclicker",
@@ -128,7 +152,9 @@
       "description": "this mod clicks for you",
       "icon": "/images/newautoclicker.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/tree/main/CommunityMods",
-      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/autoclicker.js"
+      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/autoclicker.js",
+      "category": "Player-Benefits"
+
     },
     {
       "display-name": "Speed Mod",
@@ -138,7 +164,9 @@
       "description": "makes you faster",
       "icon": "/images/speed.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/tree/main/CommunityMods",
-      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/Speed.js"
+      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/Speed.js",
+      "category": "Player-Benefits"
+
     },
     {
       "display-name": "Chat Shortcuts",
@@ -148,7 +176,9 @@
       "description": "shortcuts: {health}, {pos}, {name}, {me}, {x}, {y}, {z}, {level}, {walked}, {chunk}",
       "icon": "https://cdn.modrinth.com/data/ewV42P1j/3e89b96a37f1f3cb8492d504826c520b8b25185c.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/tree/main/CommunityMods",
-      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/ChatShortcuts.js"
+      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/ChatShortcuts.js",
+      "category": "Chat"
+
     },
     {
       "display-name": "NoFall",
@@ -158,7 +188,9 @@
       "description": "makes you not take fall damage",
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/tree/main/CommunityMods",
-      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/NoFall.js"
+      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/NoFall.js",
+      "category": "Player-Benefits"
+
     },
     {
       "display-name": "AutoFish",
@@ -168,7 +200,9 @@
       "description": "fishes for you. just throw a fishing rod in water to use this mod",
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/tree/main/CommunityMods",
-      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/autofish.js"
+      "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/autofish.js",
+      "category": "Player-Benefits"
+
     },
     {
       "display-name": "JEI",
@@ -176,9 +210,11 @@
       "author": "Oeil-de-Lynx",
       "author-link": "oeil-de-lynx",
       "description": "Just Enough Items, but Eagler!",
-      "icon": "https://media.discordapp.net/attachments/1278368733563457628/1278368734041473045/image.png?ex=66d91ee9&is=66d7cd69&hm=7392fe079fc415e34b49c67428f553ebbf22b997e82a161e83783a22ebe9fc41&=&format=webp&quality=lossless&width=662&height=626",
+      "icon" : "images/jei.png",
       "repo-link": "https://github.com/OeildeLynx31/eaglerforge-mods/tree/main",
-      "download-link": "/CommunityMods/JEI.js"
+      "download-link": "/CommunityMods/JEI.js",
+      "category": "UI"
+
     },
     {
       "display-name": "Auto Respawn",
@@ -188,7 +224,9 @@
       "description": "Eagler Autorespawning!",
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/OeildeLynx31/eaglerforge-mods/tree/main",
-      "download-link": "/CommunityMods/player_vision.js"
+      "download-link": "/CommunityMods/player_vision.js",
+      "category": "Misc"
+
     },
     {
       "display-name": "Jump Boost",
@@ -198,7 +236,9 @@
       "description": "Permanent Jumpboost!",
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/OeildeLynx31/eaglerforge-mods/tree/main",
-      "download-link": "/CommunityMods/jump_boost.js"
+      "download-link": "/CommunityMods/jump_boost.js",
+      "category": "Player-Benefits"
+
     },
     {
       "display-name": "PlayerVision",
@@ -208,7 +248,9 @@
       "description": "See other players in your Eaglerforge servers!",
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/OeildeLynx31/eaglerforge-mods/tree/main",
-      "download-link": "/CommunityMods/player_vision.js"
+      "download-link": "/CommunityMods/player_vision.js",
+      "category": "UI"
+
     }
   ]
 }

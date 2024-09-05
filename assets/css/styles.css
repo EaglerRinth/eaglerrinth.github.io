@@ -34,18 +34,22 @@ body::-webkit-scrollbar-thumb:hover {
     position: absolute;
     top: 10px;
     right: 10px;
+    z-index: 100;
 }
 
 .github-button-container a.btn {
     color: #e0e0e0;
     border: 1px solid #e0e0e0;
     background-color: transparent;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
 }
 
 .github-button-container a.btn:hover {
     background-color: #e0e0e0;
     color: #121212;
+    transform: scale(1.05);
 }
 
 .link-light {
@@ -60,21 +64,23 @@ body::-webkit-scrollbar-thumb:hover {
     background-color: #1e1e1e;
     color: #e0e0e0;
     border: 1px solid #333333;
+    padding: 20px;
+    border-radius: 30px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeIn 0.5s ease;
 }
 
 .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-8px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
 }
 
 .card-title {
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     margin-bottom: 10px;
 }
 
 .author-text {
-
     color: #f5f5f5;
 }
 
@@ -87,6 +93,7 @@ body::-webkit-scrollbar-thumb:hover {
     border-top: 1px solid #333333;
     background-color: #1d1717;
     padding-top: 10px;
+    text-align: right;
 }
 
 .mod-icon {
@@ -94,6 +101,11 @@ body::-webkit-scrollbar-thumb:hover {
     height: 60px;
     object-fit: contain;
     border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.mod-icon:hover {
+    transform: scale(1.1);
 }
 
 #modContainer {
@@ -106,7 +118,25 @@ body::-webkit-scrollbar-thumb:hover {
 .col-md-4,
 .col-lg-4,
 .col-xl-3 {
-    flex: 1 1 calc(25% - 20px);
+    flex: 1 1 calc(33.33% - 20px); 
+}
+
+@media (max-width: 1200px) {
+    .col-lg-4 {
+        flex: 1 1 calc(50% - 20px); 
+    }
+}
+
+@media (max-width: 768px) {
+    .col-md-4 {
+        flex: 1 1 100%; 
+    }
+}
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
 }
 
 @keyframes fadeIn {
@@ -120,14 +150,47 @@ body::-webkit-scrollbar-thumb:hover {
     }
 }
 
-.card {
-    animation: fadeIn 0.5s ease;
-}
-
 .btn {
-    transition: transform 0.2s ease;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
 
 .btn:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
+    background-color: #e0e0e0;
+    color: #121212;
+}
+
+.category-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.category-filters label {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border: 1px solid #333333;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.category-filters input[type="radio"] {
+    display: none;
+}
+
+.category-filters input[type="radio"]:checked + label {
+    background-color: #e0e0e0;
+    color: #121212;
+}
+
+.filtered-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
 }
