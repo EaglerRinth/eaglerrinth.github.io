@@ -1,69 +1,36 @@
 <!DOCTYPE html>
-<html data-bs-theme="light" lang="en">
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>EaglerRinth</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
-    <link rel="stylesheet" href="assets/css/Articles-Cards-images.css">
-    <link rel="icon" type="image/jpeg" href="/logo.svg">
-    <style>
-    
-    .github-button-container {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-    }
-    
-    .github-button-container a.btn {
-        color: #000000;
-        border-color: #000000;
-    }
-    
-    .github-button-container a.btn:hover {
-        background-color: #000000;
-        color: #ffffff;
-    }
-    
-    .link {
-        color: #ffffff;
-        text-decoration: none;
-    }
-    
-    .link:hover {
-        color: #cccccc;
-    }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eaglerrinth</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
-
 <body>
+<div class="container mt-5">
+    <img style="text-align: center;" src="logo.png" alt="Eaglerrinth Logo" class="eaglerrinth logo">
+<h1>Eaglerrinth</h1>   
+
     
-    <div class="github-button-container">
-      <a href="https://github.com/EaglerRinth/eaglerrinth.github.io" class="btn btn-default" target="_blank">
-        <i class="fab fa-github"></i> GitHub
-      </a>
-    </div>
-    <div class="container py-4 py-xl-5">
-        <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
-            <div class="col">
-                <img src="logo.svg" style="width: 60px;">
-                <h1 style="margin-top: -58px;padding-left: 66px;padding-top: 7px;">&nbsp;EaglerRinth</h1>
-                <div class="mb-3">
-                    <input type="text" class="form-control" id="searchInput" placeholder="Search..." style="margin-top: 10px;">
-                </div>
-            </div>
-            <div style="text-align: center;">
-                <h3>temp website until we find a backend host</h3><a href="https://github.com/EaglerRinth/eaglerrinth.github.io/issues/new?assignees=&amp;labels=submission&amp;projects=&amp;template=MODS_FORM.yml&amp;title=%5BSUBMISSION%5D+-+%3Creplace+this+with+the+name+of+your+mod%3E" class="btn btn-primary" target="_blank">submit mods</a>
-            </div>
-            <div class="col-md-11 col-lg-12 col-xl-11" id="modContainer">
-                <!-- JavaScript will add mod cards here -->
-            </div>
+    <div class="row mb-4">
+        
+        <div class="col-md-6">
+            <input type="text" id="searchInput" class="form-control" placeholder="Search for mods">
+        </div>
+        <div class="col-md-6">
+            <select id="categorySelect" class="form-select">
+                <option value="All">All Categories</option>
+                
+
+            </select>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="app.js"></script>
-</body>
+    
+    <div id="modContainer" class="row">
+    </div>
+</div>
 
+<script src="app.js"></script>
+</body>
 </html>

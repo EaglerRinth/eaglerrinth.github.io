@@ -1,0 +1,68 @@
+{
+    "authors": [
+      {
+        "id": "Murturtle",
+        "name": "Murturtle",
+        "github": "https://github.com/Murturtle/",
+        "mods": [
+          "burmod",
+          "freshui",
+          "autologin",
+          "blur"
+        ]
+      },
+      {
+        "id": "Neverflagastralis",
+        "name": "Neverflagastralis",
+        "github": "https://github.com/AstralisLLC",
+        "mods": [
+          "statshud",
+          "chatcmd"
+        ]
+      },
+      {
+        "id": "radmanplays",
+        "name": "radmanplays",
+        "github": "https://github.com/radmanplays",
+        "mods": [
+          "jetpack",
+          "xraymod",
+          "fullbright",
+          "autoclicker",
+          "speedmod"
+        ]
+      },
+      {
+        "id": "BarneyTheGod",
+        "name": "BarneyTheGod",
+        "github": "https://github.com/BarneyCompiler",
+        "mods": [
+          "barneysmusicmod"
+        ]
+      },
+      {
+        "id": "ZXMushroom63",
+        "name": "ZXMushroom63",
+        "github": "https://github.com/ZXMushroom63",
+        "mods": [
+          "blinkmod",
+          "graplehookmod",
+          "chatshortcutsmod",
+          "nofallmod",
+          "autofishmod"
+        ]
+      },
+      {
+        "id": "Oeil-de-Lynx",
+        "name": "Oeil-de-Lynx",
+        "github": "https://github.com/OeildeLynx31/",
+        "mods": [
+          "jei",
+          "autorespawn",
+          "jumpboost",
+          "playervision"
+        ]
+      }
+    ]
+  }
+  
