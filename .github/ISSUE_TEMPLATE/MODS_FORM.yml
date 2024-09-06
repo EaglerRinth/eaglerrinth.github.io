@@ -1,0 +1,46 @@
+name: "Submit Your Mod"
+description: form for submitting mods
+title: "[SUBMISSION] - <replace this with the name of your mod>"
+labels: [
+  "submission"
+]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: description of your mod
+    validations:
+      required: true
+  - type: input
+    id: icon
+    attributes:
+      label: "Mod icon"
+      description: url of the icon of your mod (we'll use a placeholder icon if this part of the form is empty)
+    validations:
+      required: false
+  - type: input
+    id: modurl
+    attributes:
+      label: "Mod url"
+      description: url of your mod (.js only)
+    validations:
+      required: true
+  - type: input
+    id: modsrc
+    attributes:
+      label: "Mod source code"
+      description: source code of your mod (we'll use the mod url if empty)
+    validations:
+      required: false
+  - type: textarea
+    id: author
+    attributes:
+      label: "Mod Author"
+      description: enter the name of the author of the mod and the url to their github account
+      value: |
+        name: radmanplays
+        github: https://github.com/radmanplays
+      render: bash
+    validations:
+      required: true
