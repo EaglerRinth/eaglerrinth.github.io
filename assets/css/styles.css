@@ -90,8 +90,8 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .card-footer {
-    border-top: 1px solid #333333;
-    background-color: #1d1717;
+    border-top: 1px solid #1e1e1e;
+    background-color: #1e1e1e;
     padding-top: 10px;
     text-align: right;
 }
