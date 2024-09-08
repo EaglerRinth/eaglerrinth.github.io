@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <img src="${mod.icon}" class="mod-icon me-3" alt="${mod['display-name']} Icon">
                                 <div>
                                     <h5 class="card-title m-0">${mod['display-name']}</h5>
-                                    <p class="card-subtitle text-muted mb-2">Author: <a href="user/?user=${mod.author}" class="link-light">${mod.author}</a></p>
+<p class="card-subtitle text-muted mb-2 author-text">Author: <a href="user/?user=${mod.author}" class="link-light">${mod.author}</a></p>
                                 </div>
                             </div>
                             <p class="card-text mt-3">${mod.description}</p>

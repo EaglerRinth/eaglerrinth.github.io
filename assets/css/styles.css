@@ -83,6 +83,10 @@ body::-webkit-scrollbar-thumb:hover {
 .author-text {
     color: #f5f5f5;
 }
+.author-text {
+    color: #655d5d !important; 
+}
+
 
 .card-text {
     font-size: 0.9rem;
