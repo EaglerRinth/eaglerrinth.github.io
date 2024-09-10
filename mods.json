@@ -9,7 +9,8 @@
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/Murturtle/Burmod",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/burmod.js",
-      "category": "Client"
+      "category": "Client",
+      "api" : "Eaglerforge 1.8.8"
 
     },
     {
@@ -21,7 +22,8 @@
       "icon": "/images/newstatHUD.png",
       "repo-link": "https://github.com/AstralisLLC/EaglerForge-Mods/blob/main/StatsHudV3.js",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/StatsHudV3.js",
-      "category": "UI"
+      "category": "UI",
+      "api" : "Eaglerforge 1.8.8"
 
     },
     {
@@ -33,7 +35,8 @@
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/Murturtle/MursMods/blob/main/FreshEaglerUI.js",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/FreshEaglerUI.js",
-      "category": "UI"
+      "category": "UI",
+      "api" : "Eaglerforge 1.8.8"
 
     },
     {
@@ -45,7 +48,8 @@
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/AstralisLLC/EaglerForge-Mods/main/chat%20utils.js",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/chat.utils.js",
-      "category": "Chat"
+      "category": "Chat",
+      "api" : "Eaglerforge 1.8.8"
 
     },
     {
@@ -57,7 +61,8 @@
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/Murturtle/MursMods/blob/main/SemiAutoLogin.js",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/SemiAutoLogin.js",
-      "category": "Chat"
+      "category": "Chat",
+      "api" : "Eaglerforge 1.8.8"
 
     },
     {
@@ -69,7 +74,8 @@
       "icon": "https://raw.githubusercontent.com/Murturtle/MursMods/main/Blur.png",
       "repo-link": "https://github.com/Murturtle/MursMods/blob/main/Blur.js",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/Blur.js",
-      "category": "Preformance"
+      "category": "Preformance",
+      "api" : "Eaglerforge 1.8.8"
 
     },
     {
@@ -81,7 +87,8 @@
       "icon": "/images/jetpack_scaled_16x_pngcrushed.png",
       "repo-link": "https://github.com/radmanplays/eaglerreborn-plugins",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/jetpack-ef.js",
-      "category": "Player-Benefits"
+      "category": "Player-Benefits",
+      "api" : "Eaglerforge 1.8.8"
 
     },
     {
@@ -93,7 +100,8 @@
       "icon": "https://encrypted-tbn0.gstatic.com//images?q=tbn:ANd9GcQNY9cuS9betbnjFw2W_ZCXs_hW9IPgxtIXKUPYxIV1mw&s",
       "repo-link": "https://github.com/BarneyCompiler/barneysmods/blob/main/Barneys%20Music%20Player",
       "download-link": "https://raw.githubusercontent.com/BarneyCompiler/barneysmods/main/Barneys%20Music%20Player",
-      "category": "Addons"
+      "category": "Addons",
+      "api" : "Eaglerforge 1.8.8"
 
     },
     {
@@ -105,7 +113,8 @@
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/eaglerforge/EaglerForge",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/blink.js",
-      "category": "Misc"
+      "category": "Misc",
+      "api" : "Eaglerforge 1.8.8"
 
     },
     {
@@ -117,7 +126,8 @@
       "icon": "/images/grappling-gun.png",
       "repo-link": "https://github.com/eaglerforge/EaglerForge",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/grapplehook.js",
-      "category": "Addons"
+      "category": "Addons",
+      "api" : "Eaglerforge 1.8.8"
 
     },
     {
@@ -129,7 +139,8 @@
       "icon": "/images/xray.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/Xray.js",
-      "category": "Player-Benefits"
+      "category": "Player-Benefits",
+      "api" : "Eaglerforge 1.8.8"
 
     },
     {
@@ -141,7 +152,8 @@
       "icon": "/images/fullBright.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/tree/main/CommunityMods",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/fullbright.js",
-      "category": "Player-Benefits"
+      "category": "Player-Benefits",
+      "api" : "Eaglerforge 1.8.8"
 
     },
     {
@@ -153,7 +165,8 @@
       "icon": "/images/newautoclicker.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/tree/main/CommunityMods",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/autoclicker.js",
-      "category": "Player-Benefits"
+      "category": "Player-Benefits",
+      "api" : "Eaglerforge 1.8.8"
 
     },
     {
@@ -165,7 +178,8 @@
       "icon": "/images/speed.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/tree/main/CommunityMods",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/Speed.js",
-      "category": "Player-Benefits"
+      "category": "Player-Benefits",
+      "api" : "Eaglerforge 1.8.8"
 
     },
     {
@@ -177,7 +191,8 @@
       "icon": "https://cdn.modrinth.com/data/ewV42P1j/3e89b96a37f1f3cb8492d504826c520b8b25185c.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/tree/main/CommunityMods",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/ChatShortcuts.js",
-      "category": "Chat"
+      "category": "Chat",
+      "api" : "Eaglerforge 1.8.8"
 
     },
     {
@@ -189,7 +204,8 @@
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/tree/main/CommunityMods",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/NoFall.js",
-      "category": "Player-Benefits"
+      "category": "Player-Benefits",
+      "api" : "Eaglerforge 1.8.8"
 
     },
     {
@@ -201,7 +217,8 @@
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/tree/main/CommunityMods",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/autofish.js",
-      "category": "Player-Benefits"
+      "category": "Player-Benefits",
+      "api" : "Eaglerforge 1.8.8"
 
     },
     {
@@ -212,8 +229,9 @@
       "description": "Just Enough Items, but Eagler!",
       "icon" : "images/jei.png",
       "repo-link": "https://github.com/OeildeLynx31/eaglerforge-mods/tree/main",
-      "download-link": "/CommunityMods/JEI.js",
-      "category": "UI"
+      "download-link": "/Communitymods/eaglerforgeX/JEI.js",
+      "category": "UI",
+      "api" : "Eaglerforge 1.8.8"
 
     },
     {
@@ -224,8 +242,9 @@
       "description": "Eagler Autorespawning!",
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/OeildeLynx31/eaglerforge-mods/tree/main",
-      "download-link": "/CommunityMods/player_vision.js",
-      "category": "Misc"
+      "download-link": "/Communitymods/eaglerforgeX/player_vision.js",
+      "category": "Misc",
+      "api" : "Eaglerforge 1.8.8"
 
     },
     {
@@ -236,8 +255,9 @@
       "description": "Permanent Jumpboost!",
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/OeildeLynx31/eaglerforge-mods/tree/main",
-      "download-link": "/CommunityMods/jump_boost.js",
-      "category": "Player-Benefits"
+      "download-link": "/Communitymods/eaglerforgeX/jump_boost.js",
+      "category": "Player-Benefits",
+      "api" : "Eaglerforge 1.8.8"
 
     },
     {
@@ -248,9 +268,24 @@
       "description": "See other players in your Eaglerforge servers!",
       "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
       "repo-link": "https://github.com/OeildeLynx31/eaglerforge-mods/tree/main",
-      "download-link": "/CommunityMods/player_vision.js",
-      "category": "UI"
+      "download-link": "/Communitymods/eaglerforgeX/player_vision.js",
+      "category": "UI",
+      "api" : "Eaglerforge 1.8.8"
+
+    },
+    {
+      "display-name": "customitemlib: Custom Item Library",
+      "mod-name": "customitemlib",
+      "author": "ZXMushroom63",
+      "author-link": "https://github.com/ZXMushroom63",
+      "description": "A library for Eaglerforge Injector for custom items",
+      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
+      "repo-link": "",
+      "download-link": "/Communitymods/eaglerinjector/lib.customitems.js",
+      "category": "Library",
+      "api" : "Eaglerforge-Injector"
 
     }
+    
   ]
 }

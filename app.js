@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(data => {
             const modContainer = document.getElementById('modContainer');
             const categorySelect = document.getElementById('categorySelect');
+            const apiSelect = document.getElementById('apiSelect');
             const searchInput = document.getElementById('searchInput');
 
             function createCard(mod) {
@@ -16,6 +17,8 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <img src="${mod.icon}" class="mod-icon me-3" alt="${mod['display-name']} Icon">
                                 <div>
                                     <h5 class="card-title m-0">${mod['display-name']}</h5>
+                                    <p class="card-subtitle m-0 mb-2">API: ${mod['api']}</p>
+
                                     <p class="card-subtitle text-muted mb-2 author-text">Author: <a href="user/?user=${mod.author}" class="link-light">${mod.author}</a></p>
                                 </div>
                             </div>
@@ -37,6 +40,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 categorySelect.appendChild(option);
             });
 
+            const uniqueApis = [...new Set(data.mods.map(mod => mod.api))];
+            uniqueApis.forEach(api => {
+                const option = document.createElement('option');
+                option.value = api;
+                option.textContent = api;
+                apiSelect.appendChild(option);
+            });
+
             function renderMods(mods) {
                 modContainer.innerHTML = '';
                 mods.forEach(mod => {
@@ -48,22 +59,35 @@ document.addEventListener("DOMContentLoaded", function () {
             renderMods(data.mods);
 
             searchInput.addEventListener('input', () => {
-                const searchValue = searchInput.value.toLowerCase();
-                const filteredMods = data.mods.filter(mod =>
-                    mod['display-name'].toLowerCase().includes(searchValue) ||
-                    mod.description.toLowerCase().includes(searchValue) ||
-                    mod.author.toLowerCase().includes(searchValue)
-                );
-                renderMods(filteredMods);
+                filterMods();
             });
 
             categorySelect.addEventListener('change', () => {
-                const selectedCategory = categorySelect.value;
-                const filteredMods = selectedCategory === 'All' 
-                    ? data.mods 
-                    : data.mods.filter(mod => mod.category === selectedCategory);
-                renderMods(filteredMods);
+                filterMods();
             });
+
+            apiSelect.addEventListener('change', () => {
+                filterMods();
+            });
+
+            function filterMods() {
+                const searchValue = searchInput.value.toLowerCase();
+                const selectedCategory = categorySelect.value;
+                const selectedApi = apiSelect.value;
+
+                const filteredMods = data.mods.filter(mod => {
+                    const matchesSearch = mod['display-name'].toLowerCase().includes(searchValue) ||
+                        mod.description.toLowerCase().includes(searchValue) ||
+                        mod.author.toLowerCase().includes(searchValue);
+
+                    const matchesCategory = selectedCategory === 'All' || mod.category === selectedCategory;
+                    const matchesApi = selectedApi === 'All' || mod.api === selectedApi;
+
+                    return matchesSearch && matchesCategory && matchesApi;
+                });
+
+                renderMods(filteredMods);
+            }
         })
         .catch(error => console.error('Error fetching mods.json:', error));
 });
