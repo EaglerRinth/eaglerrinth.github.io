@@ -46,7 +46,11 @@ function displayMods(mods) {
                 <div class="card-body">
                     <h2 class="card-title">${mod['display-name']}</h2>
                     <p class="card-text">${mod.description}</p>
+                    <p class="card-text">API: ${mod['api']}</p>
+
                     <a href="${mod['download-link']}" class="btn link-light">Download</a>
+                                        <a href="${mod['repo-link']}" class="btn link-light">View Source</a>
+
                 </div>
             </div>
         `;
