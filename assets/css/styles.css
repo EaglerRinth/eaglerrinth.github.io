@@ -198,3 +198,51 @@ body::-webkit-scrollbar-thumb:hover {
     gap: 20px;
     justify-content: space-between;
 }
+.top-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #111111;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    animation: slideDown 0.5s ease-in-out;
+  }
+  
+  .top-bar .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00b4d8;
+  }
+  
+  .top-bar nav {
+    display: flex;
+  }
+  
+  .top-bar nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s;
+    margin-left: 10px;
+  }
+  
+  .top-bar nav a:hover {
+    background-color: #00b4d8;
+    border-radius: 5px;
+    color: #ffffff;
+  }
+  
+  @keyframes slideDown {
+    from {
+      top: -100px;
+    }
+    to {
+      top: 0;
+    }
+  }
+  
