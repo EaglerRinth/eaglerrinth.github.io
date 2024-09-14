@@ -1,6 +1,10 @@
-# eaglerrinth.github.io
-the website
-
+# Eaglerrinth+
+### Eaglerrinth+ is the place where you can get all MODDED Eagler things! Eaglerrinth+ is a fork that contributes back to Eaglerrinth
 ### to do
 - [x] stuff
-- [ ] add dedicated section for specific mod creators that make lots of mods
+- [x]  Add Dedicated Mod Creator Pages
+- [x]  Catagories
+- [ ] Add Resource Packs
+- [ ] Make Backend
+- [ ] Eaglerforge Clients Page
+- [ ] Eaglerforge Injector Added

@@ -1,0 +1,150 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    scrollbar-width: thin;
+    scrollbar-color: #555555 #121212;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #121212;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #555555;
+    border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #777777;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.github-button-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.github-button-container a.btn {
+    color: #e0e0e0;
+    border: 2px solid #e0e0e0;
+    background-color: transparent;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.github-button-container a.btn:hover {
+    background-color: #e0e0e0;
+    color: #121212;
+    box-shadow: 0 4px 12px rgba(224, 224, 224, 0.2);
+}
+
+.link-light {
+    color: #e0e0e0;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.link-light:hover {
+    color: #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+.card {
+    background-color: #1b1b1b;
+    color: #e0e0e0;
+    border: 1px solid #333333;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.card-body {
+    flex-grow: 1;
+    margin-bottom: 15px;
+}
+
+.card-title {
+    font-size: 1.75rem;
+    margin: 15px 0;
+}
+
+.card-text {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.card-footer {
+    border-top: 1px solid #333333;
+    background-color: #1d1717;
+    padding: 10px 15px;
+    text-align: right;
+}
+
+.mod-icon {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: linear-gradient(135deg, #333333, #444444);
+    color: #e0e0e0;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    margin-top: auto;
+    text-align: center;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #555555, #666666);
+    transform: scale(1.08);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
+
+.btn:active {
+    transform: scale(1);
+    background: linear-gradient(135deg, #444444, #555555);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(224, 224, 224, 0.4);
+}
