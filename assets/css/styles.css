@@ -203,7 +203,7 @@ body::-webkit-scrollbar-thumb:hover {
     top: 0;
     width: 100%;
     background-color: #111111;
-    padding: 15px 20px;
+    padding: 8px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
