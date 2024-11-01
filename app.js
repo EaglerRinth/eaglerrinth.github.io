@@ -3,72 +3,91 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(response => response.json())
         .then(data => {
             const modContainer = document.getElementById('modContainer');
+            const categorySelect = document.getElementById('categorySelect');
+            const apiSelect = document.getElementById('apiSelect');
             const searchInput = document.getElementById('searchInput');
 
-            // Remove existing cards
-            modContainer.innerHTML = '';
-
-            // Add cards from the JSON data
-            data.mods.forEach(mod => {
+            function createCard(mod) {
                 const card = document.createElement('div');
-                card.className = 'col-md-11 col-lg-12 col-xl-11';
+                card.className = 'col-md-4 col-lg-4 col-xl-3 mb-4'; 
                 card.innerHTML = `
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-body p-4">
-                            <h4 class="card-title" style="padding-top: 0px;margin-left: 3px;padding-bottom: 0px;margin-bottom: 2px;margin-top: 0px;padding-left: 112px;">${mod['display-name']}</h4>
-                            <p style="padding-left: 108px;margin-top: 3px;margin-bottom: -25px;margin-left: 5px;">Author :&nbsp;</p>
-                            <a target="_blank" href="${mod['author-link']}" style="padding-left: 113px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;margin-top: -23px;margin-bottom: -15px;margin-left: 65px;">
-                                <i class="far fa-user" style="font-size: 16px;"></i>&nbsp;${mod.author}&nbsp;
-                            </a>
-                            <p class="card-text" style="margin-top: 3px;padding-left: 113px;margin-bottom: -35px;padding-bottom: 0px;padding-top: 6px;">${mod.description}</p>
-                            <img style="padding-top: 0px;padding-bottom: 0px;margin-bottom: -48px;margin-top: -89px;" src="${mod.icon}" width="100">
-                            <div class="mt-4">
-                                <a href="${mod['repo-link']}" class="btn btn-primary" target="_blank">View Source</a>
-                                <a href="${mod['download-link']}" class="btn btn-success" download target="_blank">Download</a>
-                            </div>
-                        </div>
-                    </div>`;
+                            <div class="d-flex align-items-center">
+                                <img src="${mod.icon}" class="mod-icon me-3" alt="${mod['display-name']} Icon">
+                                <div>
+                                    <h5 class="card-title m-0">${mod['display-name']}</h5>
+                                    <p class="card-subtitle m-0 mb-2">API: ${mod['api']}</p>
 
-                modContainer.appendChild(card);
-            });
-
-            // Add event listener for search input
-            searchInput.addEventListener('input', () => {
-                const searchValue = searchInput.value.toLowerCase();
-
-                // Filter mods based on search input
-                const filteredMods = data.mods.filter(mod =>
-                    mod['display-name'].toLowerCase().includes(searchValue) ||
-                    mod.description.toLowerCase().includes(searchValue) ||
-                    mod['author-link'].toLowerCase().includes(searchValue)
-                );
-
-                // Update mod cards based on filtered mods
-                modContainer.innerHTML = '';
-                filteredMods.forEach(mod => {
-                    const card = document.createElement('div');
-                    card.className = 'col-md-11 col-lg-12 col-xl-11';
-
-                    card.innerHTML = `
-                        <div class="card">
-                            <div class="card-body p-4">
-                                <h4 class="card-title" style="padding-top: 0px;margin-left: 3px;padding-bottom: 0px;margin-bottom: 2px;margin-top: 0px;padding-left: 112px;">${mod['display-name']}</h4>
-                                <p style="padding-left: 108px;margin-top: 3px;margin-bottom: -25px;margin-left: 5px;">Author :&nbsp;</p>
-                                <a href="${mod['author-link']}" style="padding-left: 113px;padding-right: 0px;padding-top: 0px;padding-bottom: 0px;margin-top: -23px;margin-bottom: -15px;margin-left: 65px;">
-                                    <i class="far fa-user" style="font-size: 16px;"></i>&nbsp;${mod.author}&nbsp;
-                                </a>
-                                <p class="card-text" style="margin-top: 3px;padding-left: 113px;margin-bottom: -35px;padding-bottom: 0px;padding-top: 6px;">${mod.description}</p>
-                                <img style="padding-top: 0px;padding-bottom: 0px;margin-bottom: -48px;margin-top: -89px;" src="${mod.icon}" width="100">
-                                <div class="mt-4">
-                                    <a href="${mod['repo-link']}" class="btn btn-primary" target="_blank">View Source</a>
-                                    <a href="${mod['download-link']}" class="btn btn-success" target="_blank" download>Download</a>
+                                    <p class="card-subtitle text-muted mb-2 author-text">Author: <a href="user/?user=${mod.author}" class="link-light">${mod.author}</a></p>
                                 </div>
                             </div>
-                        </div>`;
+                            <p class="card-text mt-3">${mod.description}</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="${mod['repo-link']}" class="btn btn-primary btn-sm" target="_blank">View Source</a>
+                            <a href="${mod['download-link']}" class="btn btn-success btn-sm" download target="_blank">Download</a>
+                        </div>
+                    </div>`;
+                return card;
+            }
 
+            const uniqueCategories = [...new Set(data.mods.map(mod => mod.category))];
+            uniqueCategories.forEach(category => {
+                const option = document.createElement('option');
+                option.value = category;
+                option.textContent = category;
+                categorySelect.appendChild(option);
+            });
+
+            const uniqueApis = [...new Set(data.mods.map(mod => mod.api))];
+            uniqueApis.forEach(api => {
+                const option = document.createElement('option');
+                option.value = api;
+                option.textContent = api;
+                apiSelect.appendChild(option);
+            });
+
+            function renderMods(mods) {
+                modContainer.innerHTML = '';
+                mods.forEach(mod => {
+                    const card = createCard(mod);
                     modContainer.appendChild(card);
                 });
+            }
+
+            renderMods(data.mods);
+
+            searchInput.addEventListener('input', () => {
+                filterMods();
             });
+
+            categorySelect.addEventListener('change', () => {
+                filterMods();
+            });
+
+            apiSelect.addEventListener('change', () => {
+                filterMods();
+            });
+
+            function filterMods() {
+                const searchValue = searchInput.value.toLowerCase();
+                const selectedCategory = categorySelect.value;
+                const selectedApi = apiSelect.value;
+
+                const filteredMods = data.mods.filter(mod => {
+                    const matchesSearch = mod['display-name'].toLowerCase().includes(searchValue) ||
+                        mod.description.toLowerCase().includes(searchValue) ||
+                        mod.author.toLowerCase().includes(searchValue);
+
+                    const matchesCategory = selectedCategory === 'All' || mod.category === selectedCategory;
+                    const matchesApi = selectedApi === 'All' || mod.api === selectedApi;
+
+                    return matchesSearch && matchesCategory && matchesApi;
+                });
+
+                renderMods(filteredMods);
+            }
         })
         .catch(error => console.error('Error fetching mods.json:', error));
 });
