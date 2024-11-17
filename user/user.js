@@ -66,7 +66,8 @@
                         <p class="card-text">API: ${mod.api}</p>
                      
                         ${mod['repo-link'] ? `<a href="${mod['repo-link']}" class="btn btn-view-source">View Source</a>
-                              <a href="${mod['download-link']}" class="btn btn-download" download>Download</a>` : ''}
+                              <a href="${mod['download-link']}" class="btn btn-download" download>Download</a>
+                              ` : ''}
 
                     </div>
                 </div>
