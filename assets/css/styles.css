@@ -4,6 +4,7 @@ body {
     color: #e0e0e0;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     transition: background-color 0.3s ease, color 0.3s ease;
     scrollbar-width: thin;
     scrollbar-color: #333333 #121212;
