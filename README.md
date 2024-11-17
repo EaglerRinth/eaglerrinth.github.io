@@ -6,5 +6,4 @@
 - [x]  Catagories
 - [ ] Add Resource Packs
 - [ ] Make Backend
-- [ ] Eaglerforge Clients Page
-- [ ] Eaglerforge Injector Added
+- [ ] Add Client Mods
