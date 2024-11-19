@@ -356,32 +356,6 @@
       "category": "UI",
       "api" : "Old-Eaglerforge 1.8.8"
 
-    },
-    {
-      "display-name": "Starlike Client",
-      "mod-name": "starlike",
-      "author": "SpeedSlicer",
-      "author-link": "SpeedSlicer",
-      "description": "Starlike Client, the All in One Eagler Client. By SpeedSlicer & Zumbiepig",
-      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAClFBMVEVHcEwYBBMqBgwqBAwiBw8bBBMpBQs1Cg0aAREeBiE7CwwpBQwwBwkXAxgWAxg0Cw5BEA8nBQ8XBBkWAxg/DxBCEhIYBBouCi5DGV8uBxA8DhAbBBwVAxdDEQ89DQ4dBRlLHhwVAxcWAxcVAxcTAhQoCREVAxgxDTkTARQnCCg/Dw95UkA1Ekw9DA05CQkYAxM5DBAwCxNAEBAWAxcXAxlAEBBXKyY/Dw8oCjElCS5hNS06Cgs3DBCDXEYSAREgByY7EkQ9DQ4uCzIeBh8vD0NuRj0/Dw8/Dw9QIiFEFFI0DThlPDUaBRxSJB50STUZBRw/EBE9DhAmCClTJyUYBBpKHR0WAxg+Dg7+83wpCjkeBRkzDDt7Hm4/Dj0lByo6D0E6DDj85WIrByktDUBEEUZVHXVOHXstCjBLFl1OGmw/E1T0yzdCEA50H3VXH3zusRjrrinoohJ9IXlsHGdnGV5zHWkdByk0EE787HFDFVtZFlRKFFX/9n1dIYRtIHkrCBM3Cg5zIoH0zSxLEUQyCi8iCDH74lkwDEL/949jHndPE0xJGWpTGg721EFvJYpiJQ721zmohmN2KIxuLw/AnGObcErTsWpeGV/86WjQlC/98HUkCjZlG2YvDTvDgyZhHG7epzOMZ0753lSNJoZKFQ6xcSf422uiYxr47JX864Dm1pJ6OxO7cBd7JYmgWhirYBLuuCtbGWfotkSUURKCKpFcKh23j1aHQhLxuRyogFj31iHmrT/20ybyxSDnuVpRFVKKI32ZeGFbHw3tx1JpJ4Hz1V/anzL64mn98pOdYS6VVBz233dpKJ5+Ribw4pTbxo2XYzfyxjTaq0/ywzK+gDlrRD3blBHMnE9eNDDpphyLL52hZzg14S3pAAAAVnRSTlMAHygLBg8CExa5Vz0bnV865HSmwtuo+9T+Sa3nj9X788TOTIJoAZjkUsbC/PWFMUSN+vV82+7aa83d6Ga6/S7T43/yse30mZfS8+/txNn14c2Q5vds7EiIaVUAAALISURBVDjLY2CgHHAwMXKws7KwqOJSYCytLi6uyekspCajLKiixI6hQK1qcQwIlJYWl5Q0iwnzsaLKswmVzElISIiNbW7uqoo5EBUmxoeqgIWzuKolqQWoAqhqekxYWBiaAlaf0q6kpJQiIMjNXVwaFiYmieYJ+9yUpKTpxS2xKV1VJbFhUYZSuoLWXJLcekw87MwsDAyMlkAF6XP2A82WFlY0kZbfOnHiwYW22q7eVmYeClL8DHZBufFx6cUpQAVCjEBgsHpZR0fHiRUrzq1adX5qjggDt1NddFz6/LrqlHgvYHDI2GxfFgEGNTU1EUtzjBiUnBrj4+LiN3bWNTau3ZIeVn/q+KxZFadXrgSqqVgXLsLAF39rY3U0GMRXr00Pa1ieWFFx9KT2wqk7t005G67FIBg9qW9LXef8jLlAcxrjwhqWJs6YcXhyg5yIgKmpUbgog5IQp4WDg2dGX1ZkZPWksqiceYmJiZv6wwX0eJj4Jbn4gWHNws7DxK2YWtkemTEpKmrJzLa2tgWHwmVhsRbCCwQyxiZHMttbszrDonqOLVq0aGZPuBYzVIFwVl53ZVb73L7KyMiM1LCo/gW9vb3zloRLsUEVKKbWZqbm1damRpa1dmeGRU0uyM7OXpMT7g6LC/+8jOTy5OTkyNay2ZkSYfWrN2RfvLw+J9wRpkA+D2hCZXl5cuTs5LyssPrN2RN6N2wOD7eGKRC2V9eRkOhOA4Ez5WH1y5smNBVsbwh3ZOJhBadTZg4mfg0VZV5OC0sXnTJ5w3X5TXsLb1+9ERwqEmAjyoWUslgZ7fQ19GXX5+/ZcXPTvn3Tpk3ZuTVcFz0Fs8uu2bErvxAI9u7aUzA53BxdAZPAhSnTLu3eXVDQlJ9/rV+OC8MEcwNRBTMrP9upE7ddv9Ijx40lI7EBnc3NJRgoquAr4MaOJ0uyMfMwslAhazMAADDs8Y+nYG2aAAAAAElFTkSuQmCC",
-      "repo-link": "https://git.webmc.xyz/Starlike-Client/Starlike-Client",
-      "download-link": "/Communitymods/client/starlike.html",
-      "category": "AIO Mod",
-      "api" : "Client"
-
-    },
-    {
-      "display-name": "Winston Mod",
-      "mod-name": "winston",
-      "author": "Murturtle",
-      "author-link": "Murturtle",
-      "description": "The winston horror mod",
-      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
-      "repo-link": "https://git.webmc.xyz/Starlike-Client/Starlike-Client",
-      "download-link": "/Communitymods/client/winston_mod.html",
-      "category": "Horror",
-      "api" : "Client"
-
     }
   ]
 }
