@@ -1,6 +1,90 @@
 {
   "mods": [
     {
+      "display-name": "Custom Item Library",
+      "mod-name": "customitemlib",
+      "author": "ZXMushroom63",
+      "author-link": "https://github.com/ZXMushroom63",
+      "description": "A library for Eaglerforge Injector for custom items.",
+      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
+      "repo-link": "https://github.com/eaglerforge/EaglerForgeInjector/tree/main/examplemods",
+      "download-link": "/Communitymods/eaglerinjector/lib.customitems.js",
+      "category": "Library",
+      "api": "Eaglerforge-Injector"
+    },
+    {
+      "display-name": "Async Sink",
+      "mod-name": "asyncsink",
+      "author": "ZXMushroom63",
+      "author-link": "https://github.com/eaglerforge/EaglerForgeInjector/tree/main/examplemods",
+      "description": "Handles asynchronous operations.",
+      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
+      "repo-link": "https://github.com/eaglerforge/EaglerForgeInjector/tree/main/examplemods",
+      "download-link": "/Communitymods/eaglerinjector/AsyncSink.js",
+      "category": "Library",
+      "api": "Eaglerforge-Injector"
+    },
+    {
+      "display-name": "Advanced Block of Steve",
+      "mod-name": "block_of_steve_advanced",
+      "author": "ZXMushroom63",
+      "author-link": "https://github.com/eaglerforge/EaglerForgeInjector/tree/main/examplemods",
+      "description": "An advanced version of the Block of Steve mod.",
+      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
+      "repo-link": "https://github.com/eaglerforge/EaglerForgeInjector/tree/main/examplemods",
+      "download-link": "/Communitymods/eaglerinjector/block_of_steve_advanced.js",
+      "category": "Mod",
+      "api": "Eaglerforge-Injector"
+    },
+    {
+      "display-name": "Simple Block of Steve",
+      "mod-name": "block_of_steve_simple",
+      "author": "ZXMushroom63",
+      "author-link": "https://github.com/eaglerforge/EaglerForgeInjector/tree/main/examplemods",
+      "description": "A simple version of the Block of Steve mod.",
+      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
+      "repo-link": "https://github.com/eaglerforge/EaglerForgeInjector/tree/main/examplemods",
+      "download-link": "/Communitymods/eaglerinjector/block_of_steve_simple.js",
+      "category": "Mod",
+      "api": "Eaglerforge-Injector"
+    },
+    {
+      "display-name": "Custom Items Demo",
+      "mod-name": "customitemsdemo",
+      "author": "ZXMushroom63",
+      "author-link": "https://github.com/eaglerforge/EaglerForgeInjector/tree/main/examplemods",
+      "description": "A demonstration mod for custom items.",
+      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
+      "repo-link": "https://github.com/eaglerforge/EaglerForgeInjector/tree/main/examplemods",
+      "download-link": "/Communitymods/eaglerinjector/CustomItemsDemo.js",
+      "category": "Demo",
+      "api": "Eaglerforge-Injector"
+    },
+    {
+      "display-name": "Custom Crafting for Diamond Blocks",
+      "mod-name": "diamondblockcustomcraft",
+      "author": "ZXMushroom63",
+      "author-link": "https://github.com/eaglerforge/EaglerForgeInjector/tree/main/examplemods",
+      "description": "Custom crafting recipes for diamond blocks.",
+      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
+      "repo-link": "https://github.com/eaglerforge/EaglerForgeInjector/tree/main/examplemods",
+      "download-link": "/Communitymods/eaglerinjector/diamondBlockCustomCraft.js",
+      "category": "Crafting",
+      "api": "Eaglerforge-Injector"
+    },
+    {
+      "display-name": "Dupe Hunting",
+      "mod-name": "dupe_hunting",
+      "author": "ZXMushroom63",
+      "author-link": "https://github.com/eaglerforge/EaglerForgeInjector/tree/main/examplemods",
+      "description": "A mod to help with hunting for duplication bugs.",
+      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
+      "repo-link": "https://github.com/eaglerforge/EaglerForgeInjector/tree/main/examplemods",
+      "download-link": "/Communitymods/eaglerinjector/dupe_hunting.js",
+      "category": "Utility",
+      "api": "Eaglerforge-Injector"
+    },
+    {
       "display-name": "Burmod WIP",
       "mod-name": "burmod",
       "author": "Murturtle",
@@ -10,7 +94,7 @@
       "repo-link": "https://github.com/Murturtle/Burmod",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/burmod.js",
       "category": "Client",
-      "api" : "Eaglerforge 1.8.8"
+      "api" : "Old-Eaglerforge 1.8.8"
 
     },
     {
@@ -23,7 +107,7 @@
       "repo-link": "https://github.com/AstralisLLC/EaglerForge-Mods/blob/main/StatsHudV3.js",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/StatsHudV3.js",
       "category": "UI",
-      "api" : "Eaglerforge 1.8.8"
+      "api" : "Old-Eaglerforge 1.8.8"
 
     },
     {
@@ -36,7 +120,7 @@
       "repo-link": "https://github.com/Murturtle/MursMods/blob/main/FreshEaglerUI.js",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/FreshEaglerUI.js",
       "category": "UI",
-      "api" : "Eaglerforge 1.8.8"
+      "api" : "Old-Eaglerforge 1.8.8"
 
     },
     {
@@ -49,7 +133,7 @@
       "repo-link": "https://github.com/AstralisLLC/EaglerForge-Mods/main/chat%20utils.js",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/chat.utils.js",
       "category": "Chat",
-      "api" : "Eaglerforge 1.8.8"
+      "api" : "Old-Eaglerforge 1.8.8"
 
     },
     {
@@ -62,7 +146,7 @@
       "repo-link": "https://github.com/Murturtle/MursMods/blob/main/SemiAutoLogin.js",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/SemiAutoLogin.js",
       "category": "Chat",
-      "api" : "Eaglerforge 1.8.8"
+      "api" : "Old-Eaglerforge 1.8.8"
 
     },
     {
@@ -75,7 +159,7 @@
       "repo-link": "https://github.com/Murturtle/MursMods/blob/main/Blur.js",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/Blur.js",
       "category": "Preformance",
-      "api" : "Eaglerforge 1.8.8"
+      "api" : "Old-Eaglerforge 1.8.8"
 
     },
     {
@@ -88,7 +172,7 @@
       "repo-link": "https://github.com/radmanplays/eaglerreborn-plugins",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/jetpack-ef.js",
       "category": "Player-Benefits",
-      "api" : "Eaglerforge 1.8.8"
+      "api" : "Old-Eaglerforge 1.8.8"
 
     },
     {
@@ -101,7 +185,7 @@
       "repo-link": "https://github.com/BarneyCompiler/barneysmods/blob/main/Barneys%20Music%20Player",
       "download-link": "https://raw.githubusercontent.com/BarneyCompiler/barneysmods/main/Barneys%20Music%20Player",
       "category": "Addons",
-      "api" : "Eaglerforge 1.8.8"
+      "api" : "Old-Eaglerforge 1.8.8"
 
     },
     {
@@ -114,7 +198,7 @@
       "repo-link": "https://github.com/eaglerforge/EaglerForge",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/blink.js",
       "category": "Misc",
-      "api" : "Eaglerforge 1.8.8"
+      "api" : "Old-Eaglerforge 1.8.8"
 
     },
     {
@@ -127,7 +211,7 @@
       "repo-link": "https://github.com/eaglerforge/EaglerForge",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/grapplehook.js",
       "category": "Addons",
-      "api" : "Eaglerforge 1.8.8"
+      "api" : "Old-Eaglerforge 1.8.8"
 
     },
     {
@@ -140,7 +224,7 @@
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/main/CommunityMods",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/Xray.js",
       "category": "Player-Benefits",
-      "api" : "Eaglerforge 1.8.8"
+      "api" : "Old-Eaglerforge 1.8.8"
 
     },
     {
@@ -153,7 +237,7 @@
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/tree/main/CommunityMods",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/fullbright.js",
       "category": "Player-Benefits",
-      "api" : "Eaglerforge 1.8.8"
+      "api" : "Old-Eaglerforge 1.8.8"
 
     },
     {
@@ -166,7 +250,7 @@
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/tree/main/CommunityMods",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/autoclicker.js",
       "category": "Player-Benefits",
-      "api" : "Eaglerforge 1.8.8"
+      "api" : "Old-Eaglerforge 1.8.8"
 
     },
     {
@@ -179,7 +263,7 @@
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/tree/main/CommunityMods",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/Speed.js",
       "category": "Player-Benefits",
-      "api" : "Eaglerforge 1.8.8"
+      "api" : "Old-Eaglerforge 1.8.8"
 
     },
     {
@@ -192,7 +276,7 @@
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/tree/main/CommunityMods",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/ChatShortcuts.js",
       "category": "Chat",
-      "api" : "Eaglerforge 1.8.8"
+      "api" : "Old-Eaglerforge 1.8.8"
 
     },
     {
@@ -205,7 +289,7 @@
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/tree/main/CommunityMods",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/NoFall.js",
       "category": "Player-Benefits",
-      "api" : "Eaglerforge 1.8.8"
+      "api" : "Old-Eaglerforge 1.8.8"
 
     },
     {
@@ -218,7 +302,7 @@
       "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/tree/main/CommunityMods",
       "download-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/releases/download/1.0/autofish.js",
       "category": "Player-Benefits",
-      "api" : "Eaglerforge 1.8.8"
+      "api" : "Old-Eaglerforge 1.8.8"
 
     },
     {
@@ -231,7 +315,7 @@
       "repo-link": "https://github.com/OeildeLynx31/eaglerforge-mods/tree/main",
       "download-link": "/Communitymods/eaglerforgeX/JEI.js",
       "category": "UI",
-      "api" : "Eaglerforge 1.8.8"
+      "api" : "Old-Eaglerforge 1.8.8"
 
     },
     {
@@ -244,7 +328,7 @@
       "repo-link": "https://github.com/OeildeLynx31/eaglerforge-mods/tree/main",
       "download-link": "/Communitymods/eaglerforgeX/player_vision.js",
       "category": "Misc",
-      "api" : "Eaglerforge 1.8.8"
+      "api" : "Old-Eaglerforge 1.8.8"
 
     },
     {
@@ -257,7 +341,7 @@
       "repo-link": "https://github.com/OeildeLynx31/eaglerforge-mods/tree/main",
       "download-link": "/Communitymods/eaglerforgeX/jump_boost.js",
       "category": "Player-Benefits",
-      "api" : "Eaglerforge 1.8.8"
+      "api" : "Old-Eaglerforge 1.8.8"
 
     },
     {
@@ -270,22 +354,8 @@
       "repo-link": "https://github.com/OeildeLynx31/eaglerforge-mods/tree/main",
       "download-link": "/Communitymods/eaglerforgeX/player_vision.js",
       "category": "UI",
-      "api" : "Eaglerforge 1.8.8"
-
-    },
-    {
-      "display-name": "customitemlib: Custom Item Library",
-      "mod-name": "customitemlib",
-      "author": "ZXMushroom63",
-      "author-link": "https://github.com/ZXMushroom63",
-      "description": "A library for Eaglerforge Injector for custom items",
-      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
-      "repo-link": "",
-      "download-link": "/Communitymods/eaglerinjector/lib.customitems.js",
-      "category": "Library",
-      "api" : "Eaglerforge-Injector"
+      "api" : "Old-Eaglerforge 1.8.8"
 
     }
-    
   ]
 }

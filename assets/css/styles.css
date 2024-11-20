@@ -4,6 +4,7 @@ body {
     color: #e0e0e0;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     transition: background-color 0.3s ease, color 0.3s ease;
     scrollbar-width: thin;
     scrollbar-color: #333333 #121212;
@@ -65,7 +66,7 @@ body::-webkit-scrollbar-thumb:hover {
     color: #e0e0e0;
     border: 1px solid #333333;
     padding: 20px;
-    border-radius: 30px;
+    border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     animation: fadeIn 0.5s ease;
 }
@@ -80,21 +81,13 @@ body::-webkit-scrollbar-thumb:hover {
     margin-bottom: 10px;
 }
 
-.author-text {
-    color: #f5f5f5;
-}
-.author-text {
-    color: #655d5d !important; 
-}
-
-
 .card-text {
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-bottom: 10px;
 }
 
 .card-footer {
-    border-top: 1px solid #1e1e1e;
+    border-top: 1px solid #333333;
     background-color: #1e1e1e;
     padding-top: 10px;
     text-align: right;
@@ -122,25 +115,26 @@ body::-webkit-scrollbar-thumb:hover {
 .col-md-4,
 .col-lg-4,
 .col-xl-3 {
-    flex: 1 1 calc(33.33% - 20px); 
+    flex: 1 1 calc(33.33% - 20px);
 }
 
 @media (max-width: 1200px) {
     .col-lg-4 {
-        flex: 1 1 calc(50% - 20px); 
+        flex: 1 1 calc(50% - 20px);
     }
 }
 
 @media (max-width: 768px) {
     .col-md-4 {
-        flex: 1 1 100%; 
+        flex: 1 1 100%;
     }
 }
+
 .centered {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%; 
+    width: 50%;
 }
 
 @keyframes fadeIn {
@@ -198,6 +192,7 @@ body::-webkit-scrollbar-thumb:hover {
     gap: 20px;
     justify-content: space-between;
 }
+
 .top-bar {
     position: fixed;
     top: 0;
@@ -210,39 +205,44 @@ body::-webkit-scrollbar-thumb:hover {
     z-index: 1000;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
     animation: slideDown 0.5s ease-in-out;
-  }
-  
-  .top-bar .brand {
+}
+
+.top-bar .brand {
     font-size: 1.5rem;
     font-weight: bold;
     color: #00af5c;
-  }
-  
-  .top-bar nav {
+}
+.author-text {
+    color: #f5f5f5;
+}
+.author-text {
+    color: #655d5d !important; 
+}
+
+.top-bar nav {
     display: flex;
-  }
-  
-  .top-bar nav a {
+}
+
+.top-bar nav a {
     color: #ffffff;
     text-decoration: none;
     padding: 10px 15px;
     font-weight: bold;
     transition: color 0.3s, background-color 0.3s;
     margin-left: 10px;
-  }
-  
-  .top-bar nav a:hover {
+}
+
+.top-bar nav a:hover {
     background-color: #00b4d8;
     border-radius: 5px;
     color: #ffffff;
-  }
-  
-  @keyframes slideDown {
+}
+
+@keyframes slideDown {
     from {
-      top: -100px;
+        top: -100px;
     }
     to {
-      top: 0;
+        top: 0;
     }
-  }
-  
+}

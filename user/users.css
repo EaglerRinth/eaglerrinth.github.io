@@ -121,30 +121,35 @@ body::-webkit-scrollbar-thumb:hover {
     padding: 12px 24px;
     border-radius: 8px;
     font-size: 1rem;
-    background: linear-gradient(135deg, #333333, #444444);
+    font-weight: bold;
     color: #e0e0e0;
     border: none;
     cursor: pointer;
     transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
     margin-top: auto;
     text-align: center;
-    display: block;
+    display: inline-block;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
 }
 
-.btn:hover {
-    background: linear-gradient(135deg, #555555, #666666);
-    transform: scale(1.08);
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+.btn-download {
+    background: linear-gradient(135deg, #4caf50, #66bb6a); /* Green tones */
 }
 
-.btn:active {
-    transform: scale(1);
-    background: linear-gradient(135deg, #444444, #555555);
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+.btn-download:hover {
+    background: linear-gradient(135deg, #43a047, #5aa457); /* Darker hover effect */
+    transform: translateY(-3px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
 }
 
-.btn:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(224, 224, 224, 0.4);
+.btn-view-source {
+    background: linear-gradient(135deg, #2196f3, #42a5f5); /* Blue tones */
 }
+
+.btn-view-source:hover {
+    background: linear-gradient(135deg, #1e88e5, #388eeb); /* Darker hover effect */
+    transform: translateY(-3px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
+}
+
