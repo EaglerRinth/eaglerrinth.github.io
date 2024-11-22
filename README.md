@@ -1,5 +1,5 @@
-# Eaglerrinth+
-### Eaglerrinth+ is the place where you can get all MODDED Eagler things! Eaglerrinth+ is a fork that contributes back to Eaglerrinth
+# Eaglerrinth
+### Eaglerrinth is the place where you can get all MODDED Eagler needs! 
 ### to do
 - [x] stuff
 - [x]  Add Dedicated Mod Creator Pages
