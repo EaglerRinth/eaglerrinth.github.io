@@ -1,5 +1,7 @@
+/* test css */
+/* Global Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Inter, system-ui, sans-serif;
     background-color: #121212;
     color: #e0e0e0;
     margin: 0;
@@ -27,14 +29,18 @@ body::-webkit-scrollbar-thumb:hover {
     background-color: #555555;
 }
 
+/* Container */
 .container {
     padding: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
+/* GitHub Button */
 .github-button-container {
-    position: absolute;
-    top: 10px;
-    right: 10px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
     z-index: 100;
 }
 
@@ -42,17 +48,18 @@ body::-webkit-scrollbar-thumb:hover {
     color: #e0e0e0;
     border: 1px solid #e0e0e0;
     background-color: transparent;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+    padding: 12px 18px;
+    border-radius: 6px;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s ease;
 }
 
 .github-button-container a.btn:hover {
     background-color: #e0e0e0;
     color: #121212;
-    transform: scale(1.05);
+    transform: scale(1.08);
 }
 
+/* Links */
 .link-light {
     color: #e0e0e0;
 }
@@ -61,43 +68,45 @@ body::-webkit-scrollbar-thumb:hover {
     color: #cccccc;
 }
 
+/* Card Styles */
 .card {
     background-color: #1e1e1e;
     color: #e0e0e0;
     border: 1px solid #333333;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 12px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     animation: fadeIn 0.5s ease;
 }
 
 .card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
 }
 
 .card-title {
-    font-size: 1.3rem;
-    margin-bottom: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 12px;
 }
 
 .card-text {
-    font-size: 1rem;
-    margin-bottom: 10px;
+    font-size: 1.1rem;
+    margin-bottom: 12px;
 }
 
 .card-footer {
     border-top: 1px solid #333333;
     background-color: #1e1e1e;
-    padding-top: 10px;
+    padding-top: 12px;
     text-align: right;
 }
 
 .mod-icon {
     width: 60px;
     height: 60px;
-    object-fit: contain;
-    border-radius: 5px;
+    object-fit: cover;
+    border-radius: 8px;
     transition: transform 0.3s ease;
 }
 
@@ -105,6 +114,7 @@ body::-webkit-scrollbar-thumb:hover {
     transform: scale(1.1);
 }
 
+/* Mod Container */
 #modContainer {
     display: flex;
     flex-wrap: wrap;
@@ -130,13 +140,15 @@ body::-webkit-scrollbar-thumb:hover {
     }
 }
 
+/* Centering Elements */
 .centered {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 60%;
 }
 
+/* Fade-In Animation */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -148,22 +160,26 @@ body::-webkit-scrollbar-thumb:hover {
     }
 }
 
+/* Buttons */
 .btn {
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: transform 0.3s, background-color 0.3s, color 0.3s ease;
 }
 
 .btn:hover {
-    transform: scale(1.1);
-    background-color: #e0e0e0;
-    color: #121212;
+    transform: scale(1.05);
+    background-color: #00af5c;
+    color: #fff;
 }
 
+/* Category Filters */
 .category-filters {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 12px;
     margin-bottom: 20px;
 }
 
@@ -171,10 +187,10 @@ body::-webkit-scrollbar-thumb:hover {
     background-color: #1e1e1e;
     color: #e0e0e0;
     border: 1px solid #333333;
-    padding: 8px 15px;
-    border-radius: 5px;
+    padding: 10px 18px;
+    border-radius: 6px;
     cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .category-filters input[type="radio"] {
@@ -182,41 +198,37 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .category-filters input[type="radio"]:checked + label {
-    background-color: #e0e0e0;
+    background-color: #00af5c;
     color: #121212;
 }
 
+/* Filtered Container */
 .filtered-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 24px;
     justify-content: space-between;
 }
 
+/* Top Bar */
 .top-bar {
     position: fixed;
     top: 0;
     width: 100%;
     background-color: #111111;
-    padding: 8px 20px;
+    padding: 10px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
     animation: slideDown 0.5s ease-in-out;
 }
 
 .top-bar .brand {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
     color: #00af5c;
-}
-.author-text {
-    color: #f5f5f5;
-}
-.author-text {
-    color: #655d5d !important; 
 }
 
 .top-bar nav {
@@ -226,18 +238,19 @@ body::-webkit-scrollbar-thumb:hover {
 .top-bar nav a {
     color: #ffffff;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 10px 18px;
     font-weight: bold;
     transition: color 0.3s, background-color 0.3s;
-    margin-left: 10px;
+    margin-left: 14px;
+    border-radius: 6px;
 }
 
 .top-bar nav a:hover {
     background-color: #00b4d8;
-    border-radius: 5px;
     color: #ffffff;
 }
 
+/* Slide Down Animation for Top Bar */
 @keyframes slideDown {
     from {
         top: -100px;
