@@ -1,5 +1,4 @@
-/* test css */
-/* Global Styles */
+
 body {
     font-family: Inter, system-ui, sans-serif;
     background-color: #121212;
@@ -29,14 +28,12 @@ body::-webkit-scrollbar-thumb:hover {
     background-color: #555555;
 }
 
-/* Container */
 .container {
     padding: 20px;
     max-width: 1400px;
     margin: 0 auto;
 }
 
-/* GitHub Button */
 .github-button-container {
     position: fixed;
     top: 20px;
@@ -59,7 +56,6 @@ body::-webkit-scrollbar-thumb:hover {
     transform: scale(1.08);
 }
 
-/* Links */
 .link-light {
     color: #e0e0e0;
 }
@@ -68,7 +64,6 @@ body::-webkit-scrollbar-thumb:hover {
     color: #cccccc;
 }
 
-/* Card Styles */
 .card {
     background-color: #1e1e1e;
     color: #e0e0e0;
@@ -114,7 +109,6 @@ body::-webkit-scrollbar-thumb:hover {
     transform: scale(1.1);
 }
 
-/* Mod Container */
 #modContainer {
     display: flex;
     flex-wrap: wrap;
@@ -140,7 +134,6 @@ body::-webkit-scrollbar-thumb:hover {
     }
 }
 
-/* Centering Elements */
 .centered {
     display: block;
     margin-left: auto;
@@ -148,7 +141,6 @@ body::-webkit-scrollbar-thumb:hover {
     width: 60%;
 }
 
-/* Fade-In Animation */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -160,7 +152,6 @@ body::-webkit-scrollbar-thumb:hover {
     }
 }
 
-/* Buttons */
 .btn {
     padding: 12px 24px;
     border-radius: 6px;
@@ -175,7 +166,6 @@ body::-webkit-scrollbar-thumb:hover {
     color: #fff;
 }
 
-/* Category Filters */
 .category-filters {
     display: flex;
     flex-wrap: wrap;
@@ -202,7 +192,6 @@ body::-webkit-scrollbar-thumb:hover {
     color: #121212;
 }
 
-/* Filtered Container */
 .filtered-container {
     display: flex;
     flex-wrap: wrap;
@@ -210,7 +199,6 @@ body::-webkit-scrollbar-thumb:hover {
     justify-content: space-between;
 }
 
-/* Top Bar */
 .top-bar {
     position: fixed;
     top: 0;
@@ -250,7 +238,6 @@ body::-webkit-scrollbar-thumb:hover {
     color: #ffffff;
 }
 
-/* Slide Down Animation for Top Bar */
 @keyframes slideDown {
     from {
         top: -100px;
