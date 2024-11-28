@@ -61,18 +61,6 @@
       "api": "Eaglerforge-Injector"
     },
     {
-      "display-name": "Custom Crafting for Diamond Blocks",
-      "mod-name": "diamondblockcustomcraft",
-      "author": "ZXMushroom63",
-      "author-link": "https://github.com/eaglerforge/EaglerForgeInjector/tree/main/examplemods",
-      "description": "Custom crafting recipes for diamond blocks.",
-      "icon": "https://logolook.net/wp-content/uploads/2021/06/Symbol-Minecraft.png",
-      "repo-link": "https://github.com/eaglerforge/EaglerForgeInjector/tree/main/examplemods",
-      "download-link": "/Communitymods/eaglerinjector/diamondBlockCustomCraft.js",
-      "category": "Crafting",
-      "api": "Eaglerforge-Injector"
-    },
-    {
       "display-name": "Dupe Hunting",
       "mod-name": "dupe_hunting",
       "author": "ZXMushroom63",
