@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                     <h5 class="card-title m-0">${mod['display-name']}</h5>
                                     <p class="card-subtitle m-0 mb-2">API: ${mod['api']}</p>
 
-                                    <p class="card-subtitle text-muted mb-2 author-text">Author: <a href="user/?user=${mod.author}" class="link-light">${mod.author}</a></p>
+                                    <p class="card-subtitle mb-2 author-text">Author: <a href="user/?user=${mod.author}" class="link-light">${mod.author}</a></p>
                                 </div>
                             </div>
                             <p class="card-text mt-3">${mod.description}</p>
