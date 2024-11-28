@@ -344,6 +344,19 @@
       "category": "UI",
       "api" : "Old-Eaglerforge 1.8.8"
 
+    },
+    {
+      "display-name": "EaglerHomes",
+      "mod-name": "eaglerhomes",
+      "author": "Patrick",
+      "author-link": "bImPatman",
+      "description": "This is a Positioning system that lets you set homes and teleport to homes. commands: {sethome}, {home}, {EGHomesHelp}",
+      "icon": "https://raw.githubusercontent.com/EaglerRinth/eaglerrinth.github.io/refs/heads/main/images/EaglerHomes.jpg",
+      "repo-link": "https://github.com/EaglerRinth/eaglerrinth.github.io/blob/main/CommunityMods/eaglerforgeX/",
+      "download-link": "/Communitymods/eaglerforgeX/EaglerHomes.js",
+      "category": "Player-Benefits",
+      "api" : "Old-Eaglerforge 1.8.8"
+
     }
   ]
 }
