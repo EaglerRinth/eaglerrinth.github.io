@@ -1,4 +1,4 @@
-let cps = 2
+let cps = 7
 
 function click() {
   ModAPI.clickMouse()
